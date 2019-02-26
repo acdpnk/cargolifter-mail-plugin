@@ -1,0 +1,441 @@
+/* ssh host key changed */
+"%@'s fingerprint does not match the one on record. If the server has changed its key, then this is to be expected. If not then you should check with the system administrator before proceeding.\nThe new fingerprint is %@.\nDo you wish to connect to the server?" = "%1$@ の公開鍵が記録されているものと照合しません。サーバー側で鍵を変更した場合は、このようなエラーが起こります。もしそうでない場合は、まずシステム管理者に確認してください。\n新しい公開鍵は %2$@ です。\nサーバーに接続しますか？";
+
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\nどうしますか？";
+
+/* ConnectionOpenPanel */
+"A Connection Error Occurred" = "接続エラーが起こりました";
+
+/* FTP Abort */
+"Action Aborted. Local Error" = "操作が取り消されました。ローカルエラー";
+
+/* FTP no data stream types available */
+"All data connection modes have been exhausted. Check with the server administrator." = "あらゆる接続モードでの接続に失敗しました。サーバ管理者にお問い合わせください。";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"An intermediate directory does not exist and needs to be created before the current directory" = "現在のディレクトリの上位にもう一つのディレクトリを作成する必要があります。";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"An unknown error occurred" = "予期せぬエラーが起こりました";
+
+/* multiple connection joiner */
+"and" = "と";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "アップロードを中断してもよろしいですか？";
+
+/* failed pk authentication for ssh */
+"Authentication by Public Key Failed" = "公開鍵での認証に失敗しました";
+
+/* failed authentication for ssh */
+"Authentication Failed. Do you have permission to access this server via SFTP?" = "認証に失敗しました。このサーバに SFTP 接続する権限を持っていますか？";
+
+/* authorise */
+"Authorize" = "認証";
+
+/* authorise */
+"Authorize Connection?" = "接続認証しますか？";
+
+/* connection type */
+"auto" = "自動";
+
+/* config */
+"Bad Configuration" = "設定が悪い";
+
+/* error */
+"Bad Droplet" = "ドロップレットが悪い";
+
+/* sftp last error */
+"Bad Message" = "間違ったメッセージ";
+
+/* Transfer Controller */
+"Bad Password." = "パスワードが間違い";
+
+/* filesize: bytes */
+"bytes" = "バイト";
+
+/* authorise */
+"Cancel" = "キャンセル";
+
+/* FTP upload error */
+"Cannot Upload File. Storage quota on server exceeded" = "ファイルをアップロードできません。サーバの保存容量を超過しています。";
+
+/* transfer controller
+   connected message */
+
+"Connected to %@" = "%@ に接続";
+
+/* file transcript */
+"Connected to File System\n" = "ファイルシステム\nに接続中";
+
+/* connection string */
+"Connecting to %@" = "%@ に接続中";
+
+/* file transcript */
+"Connecting…\n" = "n\に接続中…";
+
+/* sftp last error */
+"Connection Lost" = "接続が途絶えました";
+
+/* close window */
+"Continue Upload" = "アップロードを継続";
+
+/* file transcript */
+"Copying %@ to %@\n" = "%1$@ から %2$@へコピー\n";
+
+/* FileConnection set permissions error */
+"Could not change file permissions" = "ファイルのアクセス権を変更できませんでした";
+
+/* FileConnection create directory error */
+"Could not create directory" = "ディレクトリを作成できませんでした";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "指定した設定ファイルが見つかりませんでした\n %@";
+
+/* file transcript */
+"Create Directory %@ (%lo)\n" = "ディレクトリを作成 %1$@ (%2$lo)\n";
+
+/* FTP Create directory error */
+"Create directory operation failed" = "ディレクトリ作成の操作に失敗しました";
+
+/* Failed to open a data stream connection */
+"Data Stream Timed Out" = "データストリームのタイムアウト";
+
+/* file transcript */
+"Deleting File %@\n" = "ファイル削除 %@\n";
+
+/* sftp last error */
+"Directory not empty" = "ディレクトリが空ではありません";
+
+/* status */
+"Disconnected" = "切断";
+
+/* transfer controller */
+"Disconnected from %@" = "%@ から切断";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* sftp last error */
+"End of File" = "ファイルの終わり";
+
+/* sftp last error */
+"Error INVAL" = "INVAL エラー";
+
+/* Directory Parsing Error */
+"Error parsing directory listing" = "ディレクトリリストの解析エラー";
+
+/* FTP no data streams available */
+"Exhausted all connection types to server. Please contact server administrator" = "すべてのサーバ接続タイプでの接続に失敗しました。サーバ管理者に連絡してください。";
+
+/* Bad ftp command */
+"Failed to change to directory" = "ディレクトリへの移動に失敗しました";
+
+/* sftp failure to create dir */
+"Failed to create directory" = "ディレクトリの作成に失敗しました";
+
+/* couldn't delete the file
+   MobileMe Directory Deletion Error
+   WebDAV Directory Deletion Error */
+
+
+"Failed to delete directory" = "ディレクトリの削除に失敗しました";
+
+/* error for deleting a directory */
+"Failed to delete directory: %@" = "ディレクトリ削除に失敗：%@";
+
+/* couldn't delete the file
+   MobileMe file deletion error
+   WebDAV File Deletion Error */
+
+
+"Failed to delete file" = "ファイルの削除に失敗しました";
+
+/* error for deleting a file */
+"Failed to delete file: %@" = "ファイル削除に失敗：%@";
+
+/* failed to find the id_dsa.pub */
+"Failed to find public key in %@. If you have a custom named key, please set the User Default key SSHPublicKey." = "%@ で公開鍵を見つけることができませんでした。カスタマイズされた鍵をお持ちの場合は、ユーザデフォルト鍵を SSHPublicKey に設定してください。";
+
+/* failed authentication for ssh */
+"Failed to initialize SFTP Subsystem. Do you have permission to access this server via SFTP?" = "SFTP のサブシステムの初期化に失敗しました。このサーバへの SFTP でのアクセス権限を持っていますか？";
+
+/* No MobileMe account or password */
+"Failed to retrieve MobileMe account details" = "MobileMe アカウント詳細の取得に失敗しました";
+
+/* FileConnection copy data error */
+"Failed to upload data" = "データアップロードに失敗";
+
+/* error transferring */
+"Failed to verify file transferred successfully" = "ファイル転送成功の確認に失敗";
+
+/* sftp error */
+"Failed to write all data" = "データを全て書き込みに失敗";
+
+/* sftp last error */
+"Failure" = "失敗";
+
+/* FTP file download error */
+"File %@ does not exist on server" = "ファイル %@ はサーバに存在しません";
+
+/* FTP error */
+"File / Directory does not exist" = "ファイル／ディレクトリーがありません";
+
+/* FileConnection error */
+"File Already Exists" = "ファイルは既に存在します";
+
+/* sftp last error */
+"File already exists" = "ファイルはすでに存在します";
+
+/* FTP file in use */
+"File in Use" = "ファイルが使用中です";
+
+/* FTP Upload error */
+"Filename not Allowed" = "このファイル名は使用できません";
+
+/* FTP service timed out */
+"FTP service not available; Remote server has closed connection" = "FTP サービスがありません; リモートサーバーは接続を切断しました。";
+
+/* FTP no service */
+"FTP Service Unavailable" = "FTP サービスが使用できません";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* transfer controller */
+"Hide Files" = "ファイルを隠す";
+
+/* Couldn't open the port to the host */
+"Host Unavailable" = "ホストが利用できません";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"Insufficient storage space available" = "保存スペースが十分ではありません";
+
+/* FTP Error */
+"Invalid Account name" = "アカウント名が無効です";
+
+/* sftp last error */
+"Invalid filename" = "ファイル名が無効です";
+
+/* sftp last error */
+"Invalid Handle" = "ハンドルが無効です";
+
+/* Stream Error before opening */
+"Is the service running on the server" = "サーバーは稼働していますか？";
+
+/* filesize: kilobytes */
+"Kilobytes" = "キロバイト";
+
+/* sftp last error */
+"Link Loop" = "リンクループ";
+
+/* FTP download error */
+"Local File already exists" = "このローカルファイルはすでに存在します";
+
+/* sftp last error */
+"Lock Conflict" = "ロックコンフリクト";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* sftp last error */
+"Method not Supported" = "サポートされていないメソッド";
+
+/* new cat name */
+"New Category" = "新規カテゴリー";
+
+/* config */
+"No configuration file specified" = "設定ファイルが指定されていません";
+
+/* sftp last error */
+"No Connection" = "コネクションがありません";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "この接続タイプは有効ではありません";
+
+/* failed to find a connection class */
+"No connection available for requested port" = "このポートでの接続は有効ではありません";
+
+/* failed to find a connection class */
+"No connection available for requested protocol" = "このプロトコルでの接続は有効ではありません";
+
+/* sftp last error */
+"No Media" = "メディアがありません";
+
+/* sftp last error */
+"No space left on remote machine" = "リモートマシンにスペースがありません";
+
+/* FTP Error */
+"No Storage Space Available" = "保存スペースがありません";
+
+/* sftp last error */
+"No such file" = "そのようなファイルはありません";
+
+/* sftp last error */
+"No such path" = "そのようなパスはありません";
+
+/* sftp last error */
+"Not a directory" = "ディレクトリがありません";
+
+/* FTP Error */
+"Not Logged In" = "ログインしていません";
+
+/* sftp last error
+   OK */
+
+"OK" = "OK";
+
+/* sftp last error */
+"Operation Unsupported" = "この動作は未サポートです";
+
+/* WebDAV Uploading Error
+   MobileMe File Uploading Error */
+
+"Parent Folder does not exist" = "上位フォルダが存在しません";
+
+/* No comment provided by engineer. */
+"Password was not accepted." = "パスワードが承認されませんでした";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* sftp last error */
+"Permission Denied" = "認証失敗";
+
+/* config
+   error */
+
+"Quit" = "終了";
+
+/* sftp last error */
+"Quota exceeded" = "割り当て超過";
+
+/* file transcript */
+"Renaming %@ to %@\n" = "%1$@ を %2$@\n　に改名";
+
+/* FTP Error */
+"Request Aborted. Page Type Unknown" = "要求は中止されました。不明のページタイプ";
+
+/* sftp last error */
+"Request Denied" = "リクエスト却下";
+
+/* abbreviation for seconds, e.g. 12 MB/s */
+"s" = "s";
+
+/* category name */
+"Saved Hosts" = "保存されたホスト";
+
+/* No comment provided by engineer. */
+"Secure Shell Connection Error" = "セキュアシェル接続エラー";
+
+/* transfer controller */
+"Show Files" = "ファイルを表示";
+
+/* close window */
+"Stop Upload" = "アップロードを停止";
+
+/* close window */
+"Stop Upload?" = "アップロードを停止しますか？";
+
+/* Error creating stream */
+"Stream Unavailable" = "ストリームは利用できません";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"The body of the request is not supported" = "リクエストの本体はサポートされていません。";
+
+/* sftp bad directory */
+"The directory (%@) does not exist" = "ディレクトリ (%@) は存在しません";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"The directory already exists" = "このディレクトリはすでに存在します";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"The server does not allow the creation of directories at the current location" = "サーバはこの場所への新規ディレクトリの作成を許可していません";
+
+/* No comment provided by engineer. */
+"The SSH manager returned the following error message:\n\n%@" = "SSH マネージャーが以下のエラーを出しました:\n\n%@";
+
+/* error transferring */
+"The transferred file has a size of 0." = "転送されたファイルのサイズが0となっています";
+
+/* MobileMe Directory Contents Error */
+"There is no MobileMe access to the directory" = "このディレクトリへの MobileMe 接続はできません";
+
+/* No WebDAV access to the specified path */
+"There is no WebDAV access to the directory" = "このディレクトリへの WebDAV 接続はできません";
+
+/* sftp error */
+"There was an error with the SSH subsystem: " = "SSH サブシステムにエラーがあります:";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "ドロップレットを作成したときのアプリケーションがありません。そのアプリケーションを再インストールする必要があります。";
+
+/* ssh authorise remote host fingerprint */
+"This is the first time connecting to %@. It has a fingerprint of \n%@. Do you wish to connect?" = "%1$@ に接続するのは今回が初めてです。次の公開鍵が設定されています：\n%2$@. 接続しますか？";
+
+/* time out */
+"Timed Out waiting for remote host." = "リモートホストの待ち時間がタイムアウトしました。";
+
+/* Transfer Controller */
+"Too many files had transfer problems" = "ファイル転送エラーが多すぎました。";
+
+/* FileConnection failed to copy file */
+"Unable to store data in file" = "データをファイルに保存できません";
+
+/* WebDAV Error */
+"Unknown Error Occurred" = "予期せぬエラーが起こりました";
+
+/* sftp last error */
+"Unknown Principle" = "Principle 不明";
+
+/* status message */
+"Uploading" = "アップロード";
+
+/* status */
+"Uploading %@" = "%@ をアップロード中";
+
+/* No username or password */
+"Username and Password are required for FTP connections" = "FTP ではユーザ名とパスワードが必要です";
+
+/* No username or password */
+"Username and Password are required for S3 connections" = "S3 接続にはユーザー名とパスワードが必要です";
+
+/* No username or password */
+"Username and Password are required for WebDAV connections" = "WebDAV ではユーザ名とパスワードが必要です";
+
+/* No username or password */
+"Username is required for SFTP connections" = "SFTP 接続ではユーザ名が必要です";
+
+/* sftp last error */
+"Write Protected" = "書き込み不可";
+
+/* file transcript */
+"Writing data to %@\n" = "%@\nにデータを書き込み中";
+
+/* Bonjour Error */
+"You can not add a child category to the Bonjour category." = "Bonjour カテゴリ内にサブカテゴリを加えることはできません。";
+
+/* Bonjour Error */
+"You can not add a new host to the Bonjour category." = "Bonjour カテゴリに新しいホストを追加できます。";
+
+/* FTP file upload error */
+"You do not have access to write file %@" = "%@ というファイルへのアクセス権がありません";
+
+/* FTP Error */
+"You need an Account to Upload Files" = "アップロードをするためにアカウントが必要です";

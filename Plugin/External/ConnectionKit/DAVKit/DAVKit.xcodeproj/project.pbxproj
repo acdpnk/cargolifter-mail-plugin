@@ -1,0 +1,1084 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221D569E1726A38600527AD9 /* DAVCopyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D569C1726A38600527AD9 /* DAVCopyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D569F1726A38600527AD9 /* DAVCopyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D569C1726A38600527AD9 /* DAVCopyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56A01726A38600527AD9 /* DAVCopyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D569D1726A38600527AD9 /* DAVCopyRequest.m */; };
+		221D56A11726A38600527AD9 /* DAVCopyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D569D1726A38600527AD9 /* DAVCopyRequest.m */; };
+		221D56A41726A40000527AD9 /* DAVDeleteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56A21726A40000527AD9 /* DAVDeleteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56A51726A40000527AD9 /* DAVDeleteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56A21726A40000527AD9 /* DAVDeleteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56A61726A40000527AD9 /* DAVDeleteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56A31726A40000527AD9 /* DAVDeleteRequest.m */; };
+		221D56A71726A40000527AD9 /* DAVDeleteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56A31726A40000527AD9 /* DAVDeleteRequest.m */; };
+		221D56AA1726A43E00527AD9 /* DAVGetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56A81726A43E00527AD9 /* DAVGetRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56AB1726A43E00527AD9 /* DAVGetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56A81726A43E00527AD9 /* DAVGetRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56AC1726A43E00527AD9 /* DAVGetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56A91726A43E00527AD9 /* DAVGetRequest.m */; };
+		221D56AD1726A43E00527AD9 /* DAVGetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56A91726A43E00527AD9 /* DAVGetRequest.m */; };
+		221D56B01726A47E00527AD9 /* DAVListingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56AE1726A47E00527AD9 /* DAVListingRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56B11726A47E00527AD9 /* DAVListingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56AE1726A47E00527AD9 /* DAVListingRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56B21726A47E00527AD9 /* DAVListingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56AF1726A47E00527AD9 /* DAVListingRequest.m */; };
+		221D56B31726A47E00527AD9 /* DAVListingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56AF1726A47E00527AD9 /* DAVListingRequest.m */; };
+		221D56B61726A4D600527AD9 /* DAVMakeCollectionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56B41726A4D600527AD9 /* DAVMakeCollectionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56B71726A4D600527AD9 /* DAVMakeCollectionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56B41726A4D600527AD9 /* DAVMakeCollectionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56B81726A4D600527AD9 /* DAVMakeCollectionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56B51726A4D600527AD9 /* DAVMakeCollectionRequest.m */; };
+		221D56B91726A4D600527AD9 /* DAVMakeCollectionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56B51726A4D600527AD9 /* DAVMakeCollectionRequest.m */; };
+		221D56BC1726A51400527AD9 /* DAVMoveRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56BA1726A51400527AD9 /* DAVMoveRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56BD1726A51400527AD9 /* DAVMoveRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56BA1726A51400527AD9 /* DAVMoveRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56BE1726A51400527AD9 /* DAVMoveRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56BB1726A51400527AD9 /* DAVMoveRequest.m */; };
+		221D56BF1726A51400527AD9 /* DAVMoveRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 221D56BB1726A51400527AD9 /* DAVMoveRequest.m */; };
+		221D56C21726A60C00527AD9 /* DAVRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56C11726A60C00527AD9 /* DAVRequests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221D56C31726A60C00527AD9 /* DAVRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 221D56C11726A60C00527AD9 /* DAVRequests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221F8B9A17259BFF004E7B9D /* BasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED5B2121D98D600DD1DFF /* BasicTests.m */; };
+		221F8B9D17259BFF004E7B9D /* DAVTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED5B8121D98D600DD1DFF /* DAVTest.m */; };
+		221F8BAC17259C79004E7B9D /* libDAVKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF26016CE830C002C1CBF /* libDAVKit.a */; };
+		221F8BAF17259DD7004E7B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF26216CE830C002C1CBF /* Foundation.framework */; };
+		221F8BB317259F16004E7B9D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221F8BB217259F16004E7B9D /* SenTestingKit.framework */; };
+		221F8BB417259F60004E7B9D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF28316CE8596002C1CBF /* MobileCoreServices.framework */; };
+		22AC1BAA17426F1C00AB09E1 /* KMSCloseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B5917426F1B00AB09E1 /* KMSCloseCommand.m */; };
+		22AC1BAB17426F1C00AB09E1 /* KMSCloseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B5917426F1B00AB09E1 /* KMSCloseCommand.m */; };
+		22AC1BAC17426F1C00AB09E1 /* KMSCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B5B17426F1B00AB09E1 /* KMSCommand.m */; };
+		22AC1BAD17426F1C00AB09E1 /* KMSCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B5B17426F1B00AB09E1 /* KMSCommand.m */; };
+		22AC1BAE17426F1C00AB09E1 /* KMSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B5D17426F1B00AB09E1 /* KMSConnection.m */; };
+		22AC1BAF17426F1C00AB09E1 /* KMSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B5D17426F1B00AB09E1 /* KMSConnection.m */; };
+		22AC1BB017426F1C00AB09E1 /* KMSListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B5F17426F1B00AB09E1 /* KMSListener.m */; };
+		22AC1BB117426F1C00AB09E1 /* KMSListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B5F17426F1B00AB09E1 /* KMSListener.m */; };
+		22AC1BB217426F1C00AB09E1 /* KMSPauseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6117426F1B00AB09E1 /* KMSPauseCommand.m */; };
+		22AC1BB317426F1C00AB09E1 /* KMSPauseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6117426F1B00AB09E1 /* KMSPauseCommand.m */; };
+		22AC1BB417426F1C00AB09E1 /* KMSRegExResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6317426F1B00AB09E1 /* KMSRegExResponder.m */; };
+		22AC1BB517426F1C00AB09E1 /* KMSRegExResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6317426F1B00AB09E1 /* KMSRegExResponder.m */; };
+		22AC1BB617426F1C00AB09E1 /* KMSResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6517426F1B00AB09E1 /* KMSResponder.m */; };
+		22AC1BB717426F1C00AB09E1 /* KMSResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6517426F1B00AB09E1 /* KMSResponder.m */; };
+		22AC1BB817426F1C00AB09E1 /* KMSResponseCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6717426F1B00AB09E1 /* KMSResponseCollection.m */; };
+		22AC1BB917426F1C00AB09E1 /* KMSResponseCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6717426F1B00AB09E1 /* KMSResponseCollection.m */; };
+		22AC1BBA17426F1C00AB09E1 /* KMSSendDataCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6917426F1B00AB09E1 /* KMSSendDataCommand.m */; };
+		22AC1BBB17426F1C00AB09E1 /* KMSSendDataCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6917426F1B00AB09E1 /* KMSSendDataCommand.m */; };
+		22AC1BBC17426F1C00AB09E1 /* KMSSendServerDataCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6B17426F1B00AB09E1 /* KMSSendServerDataCommand.m */; };
+		22AC1BBD17426F1C00AB09E1 /* KMSSendServerDataCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6B17426F1B00AB09E1 /* KMSSendServerDataCommand.m */; };
+		22AC1BBE17426F1C00AB09E1 /* KMSSendStringCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6D17426F1B00AB09E1 /* KMSSendStringCommand.m */; };
+		22AC1BBF17426F1C00AB09E1 /* KMSSendStringCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6D17426F1B00AB09E1 /* KMSSendStringCommand.m */; };
+		22AC1BC017426F1C00AB09E1 /* KMSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6F17426F1B00AB09E1 /* KMSServer.m */; };
+		22AC1BC117426F1C00AB09E1 /* KMSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B6F17426F1B00AB09E1 /* KMSServer.m */; };
+		22AC1BC217426F1C00AB09E1 /* KMSTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B7217426F1B00AB09E1 /* KMSTestCase.m */; };
+		22AC1BC317426F1C00AB09E1 /* KMSTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B7217426F1B00AB09E1 /* KMSTestCase.m */; };
+		22AC1BC417426F1C00AB09E1 /* KMSTranscriptEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B7417426F1B00AB09E1 /* KMSTranscriptEntry.m */; };
+		22AC1BC517426F1C00AB09E1 /* KMSTranscriptEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC1B7417426F1B00AB09E1 /* KMSTranscriptEntry.m */; };
+		22AC1BEC17426F1C00AB09E1 /* webdav.json in Resources */ = {isa = PBXBuildFile; fileRef = 22AC1B9917426F1C00AB09E1 /* webdav.json */; };
+		22AC1BED17426F1C00AB09E1 /* webdav.json in Resources */ = {isa = PBXBuildFile; fileRef = 22AC1B9917426F1C00AB09E1 /* webdav.json */; };
+		5FEEF26316CE830C002C1CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF26216CE830C002C1CBF /* Foundation.framework */; };
+		5FEEF26F16CE840F002C1CBF /* DAVKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED591121D989900DD1DFF /* DAVKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEF27016CE8426002C1CBF /* NSDateRFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = F94970EB132A093600713958 /* NSDateRFC1123.h */; };
+		5FEEF27116CE842E002C1CBF /* DAVListingParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED592121D989900DD1DFF /* DAVListingParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEF27216CE8438002C1CBF /* DAVListingParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED593121D989900DD1DFF /* DAVListingParser.m */; };
+		5FEEF27316CE843C002C1CBF /* NSDateRFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = F94970EC132A093600713958 /* NSDateRFC1123.m */; };
+		5FEEF27416CE8446002C1CBF /* DAVRequest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED596121D989900DD1DFF /* DAVRequest+Private.h */; };
+		5FEEF27516CE844E002C1CBF /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED5AE121D98B800DD1DFF /* ISO8601DateFormatter.m */; };
+		5FEEF27616CE8461002C1CBF /* DAVBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A4E39E1406E9CF004E4AEB /* DAVBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEF27716CE8461002C1CBF /* DAVBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A4E39F1406E9CF004E4AEB /* DAVBaseRequest.m */; };
+		5FEEF27816CE8461002C1CBF /* DAVRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED594121D989900DD1DFF /* DAVRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEF27916CE8461002C1CBF /* DAVRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED595121D989900DD1DFF /* DAVRequest.m */; };
+		5FEEF27A16CE8461002C1CBF /* DAVRequestGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A4E37C1406E12C004E4AEB /* DAVRequestGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEF27B16CE8461002C1CBF /* DAVRequestGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A4E37D1406E12C004E4AEB /* DAVRequestGroup.m */; };
+		5FEEF27C16CE8461002C1CBF /* DAVPutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED597121D989900DD1DFF /* DAVPutRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEF27D16CE8461002C1CBF /* DAVPutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED598121D989900DD1DFF /* DAVPutRequest.m */; };
+		5FEEF27E16CE8461002C1CBF /* DAVResponseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C9181BBA121DC31D0022E4AC /* DAVResponseItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEF27F16CE8461002C1CBF /* DAVResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9181BBB121DC31D0022E4AC /* DAVResponseItem.m */; };
+		5FEEF28016CE8461002C1CBF /* DAVSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED599121D989900DD1DFF /* DAVSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEF28116CE8461002C1CBF /* DAVSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED59A121D989900DD1DFF /* DAVSession.m */; };
+		5FEEF28216CE854C002C1CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF26216CE830C002C1CBF /* Foundation.framework */; };
+		5FEEF28416CE8598002C1CBF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF28316CE8596002C1CBF /* MobileCoreServices.framework */; };
+		5FEEF28616CE868B002C1CBF /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEEF28516CE868A002C1CBF /* CoreServices.framework */; };
+		C9181BBC121DC31D0022E4AC /* DAVResponseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C9181BBA121DC31D0022E4AC /* DAVResponseItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9181BBD121DC31D0022E4AC /* DAVResponseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9181BBB121DC31D0022E4AC /* DAVResponseItem.m */; };
+		C9A4E37E1406E12C004E4AEB /* DAVRequestGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A4E37C1406E12C004E4AEB /* DAVRequestGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A4E37F1406E12C004E4AEB /* DAVRequestGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A4E37D1406E12C004E4AEB /* DAVRequestGroup.m */; };
+		C9A4E3A01406E9CF004E4AEB /* DAVBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A4E39E1406E9CF004E4AEB /* DAVBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A4E3A11406E9CF004E4AEB /* DAVBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A4E39F1406E9CF004E4AEB /* DAVBaseRequest.m */; };
+		C9FED59D121D989900DD1DFF /* DAVKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED591121D989900DD1DFF /* DAVKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FED59E121D989900DD1DFF /* DAVListingParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED592121D989900DD1DFF /* DAVListingParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FED59F121D989900DD1DFF /* DAVListingParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED593121D989900DD1DFF /* DAVListingParser.m */; };
+		C9FED5A0121D989900DD1DFF /* DAVRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED594121D989900DD1DFF /* DAVRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FED5A1121D989900DD1DFF /* DAVRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED595121D989900DD1DFF /* DAVRequest.m */; };
+		C9FED5A2121D989900DD1DFF /* DAVRequest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED596121D989900DD1DFF /* DAVRequest+Private.h */; };
+		C9FED5A3121D989900DD1DFF /* DAVPutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED597121D989900DD1DFF /* DAVPutRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FED5A4121D989900DD1DFF /* DAVPutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED598121D989900DD1DFF /* DAVPutRequest.m */; };
+		C9FED5A5121D989900DD1DFF /* DAVSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED599121D989900DD1DFF /* DAVSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9FED5A6121D989900DD1DFF /* DAVSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED59A121D989900DD1DFF /* DAVSession.m */; };
+		C9FED5AF121D98B800DD1DFF /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FED5AD121D98B800DD1DFF /* ISO8601DateFormatter.h */; };
+		C9FED5B0121D98B800DD1DFF /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED5AE121D98B800DD1DFF /* ISO8601DateFormatter.m */; };
+		C9FED5C1121D98D600DD1DFF /* BasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED5B2121D98D600DD1DFF /* BasicTests.m */; };
+		C9FED5C4121D98D600DD1DFF /* DAVTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FED5B8121D98D600DD1DFF /* DAVTest.m */; };
+		C9FF7821121C7224001250C7 /* DAVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* DAVKit.framework */; };
+		F94970ED132A093600713958 /* NSDateRFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = F94970EB132A093600713958 /* NSDateRFC1123.h */; };
+		F94970EE132A093600713958 /* NSDateRFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = F94970EC132A093600713958 /* NSDateRFC1123.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		221F8BAA17259C70004E7B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FEEF25F16CE830C002C1CBF;
+			remoteInfo = "DAVKit-iOS";
+		};
+		C9FF77F2121C6F58001250C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = DAVKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221D569C1726A38600527AD9 /* DAVCopyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVCopyRequest.h; path = Sources/Core/DAVCopyRequest.h; sourceTree = "<group>"; };
+		221D569D1726A38600527AD9 /* DAVCopyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVCopyRequest.m; path = Sources/Core/DAVCopyRequest.m; sourceTree = "<group>"; };
+		221D56A21726A40000527AD9 /* DAVDeleteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVDeleteRequest.h; path = Sources/Core/DAVDeleteRequest.h; sourceTree = "<group>"; };
+		221D56A31726A40000527AD9 /* DAVDeleteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVDeleteRequest.m; path = Sources/Core/DAVDeleteRequest.m; sourceTree = "<group>"; };
+		221D56A81726A43E00527AD9 /* DAVGetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVGetRequest.h; path = Sources/Core/DAVGetRequest.h; sourceTree = "<group>"; };
+		221D56A91726A43E00527AD9 /* DAVGetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVGetRequest.m; path = Sources/Core/DAVGetRequest.m; sourceTree = "<group>"; };
+		221D56AE1726A47E00527AD9 /* DAVListingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVListingRequest.h; path = Sources/Core/DAVListingRequest.h; sourceTree = "<group>"; };
+		221D56AF1726A47E00527AD9 /* DAVListingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVListingRequest.m; path = Sources/Core/DAVListingRequest.m; sourceTree = "<group>"; };
+		221D56B41726A4D600527AD9 /* DAVMakeCollectionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVMakeCollectionRequest.h; path = Sources/Core/DAVMakeCollectionRequest.h; sourceTree = "<group>"; };
+		221D56B51726A4D600527AD9 /* DAVMakeCollectionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVMakeCollectionRequest.m; path = Sources/Core/DAVMakeCollectionRequest.m; sourceTree = "<group>"; };
+		221D56BA1726A51400527AD9 /* DAVMoveRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVMoveRequest.h; path = Sources/Core/DAVMoveRequest.h; sourceTree = "<group>"; };
+		221D56BB1726A51400527AD9 /* DAVMoveRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVMoveRequest.m; path = Sources/Core/DAVMoveRequest.m; sourceTree = "<group>"; };
+		221D56C11726A60C00527AD9 /* DAVRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVRequests.h; path = Sources/Core/DAVRequests.h; sourceTree = "<group>"; };
+		221F8BA817259BFF004E7B9D /* Tests iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		221F8BB217259F16004E7B9D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = ../../../../iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Developer/Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
+		22AC1B5817426F1B00AB09E1 /* KMSCloseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSCloseCommand.h; sourceTree = "<group>"; };
+		22AC1B5917426F1B00AB09E1 /* KMSCloseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSCloseCommand.m; sourceTree = "<group>"; };
+		22AC1B5A17426F1B00AB09E1 /* KMSCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSCommand.h; sourceTree = "<group>"; };
+		22AC1B5B17426F1B00AB09E1 /* KMSCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSCommand.m; sourceTree = "<group>"; };
+		22AC1B5C17426F1B00AB09E1 /* KMSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSConnection.h; sourceTree = "<group>"; };
+		22AC1B5D17426F1B00AB09E1 /* KMSConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSConnection.m; sourceTree = "<group>"; };
+		22AC1B5E17426F1B00AB09E1 /* KMSListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSListener.h; sourceTree = "<group>"; };
+		22AC1B5F17426F1B00AB09E1 /* KMSListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSListener.m; sourceTree = "<group>"; };
+		22AC1B6017426F1B00AB09E1 /* KMSPauseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSPauseCommand.h; sourceTree = "<group>"; };
+		22AC1B6117426F1B00AB09E1 /* KMSPauseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSPauseCommand.m; sourceTree = "<group>"; };
+		22AC1B6217426F1B00AB09E1 /* KMSRegExResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSRegExResponder.h; sourceTree = "<group>"; };
+		22AC1B6317426F1B00AB09E1 /* KMSRegExResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSRegExResponder.m; sourceTree = "<group>"; };
+		22AC1B6417426F1B00AB09E1 /* KMSResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSResponder.h; sourceTree = "<group>"; };
+		22AC1B6517426F1B00AB09E1 /* KMSResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSResponder.m; sourceTree = "<group>"; };
+		22AC1B6617426F1B00AB09E1 /* KMSResponseCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSResponseCollection.h; sourceTree = "<group>"; };
+		22AC1B6717426F1B00AB09E1 /* KMSResponseCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSResponseCollection.m; sourceTree = "<group>"; };
+		22AC1B6817426F1B00AB09E1 /* KMSSendDataCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSSendDataCommand.h; sourceTree = "<group>"; };
+		22AC1B6917426F1B00AB09E1 /* KMSSendDataCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSSendDataCommand.m; sourceTree = "<group>"; };
+		22AC1B6A17426F1B00AB09E1 /* KMSSendServerDataCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSSendServerDataCommand.h; sourceTree = "<group>"; };
+		22AC1B6B17426F1B00AB09E1 /* KMSSendServerDataCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSSendServerDataCommand.m; sourceTree = "<group>"; };
+		22AC1B6C17426F1B00AB09E1 /* KMSSendStringCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSSendStringCommand.h; sourceTree = "<group>"; };
+		22AC1B6D17426F1B00AB09E1 /* KMSSendStringCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSSendStringCommand.m; sourceTree = "<group>"; };
+		22AC1B6E17426F1B00AB09E1 /* KMSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSServer.h; sourceTree = "<group>"; };
+		22AC1B6F17426F1B00AB09E1 /* KMSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSServer.m; sourceTree = "<group>"; };
+		22AC1B7017426F1B00AB09E1 /* KMSState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSState.h; sourceTree = "<group>"; };
+		22AC1B7117426F1B00AB09E1 /* KMSTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSTestCase.h; sourceTree = "<group>"; };
+		22AC1B7217426F1B00AB09E1 /* KMSTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSTestCase.m; sourceTree = "<group>"; };
+		22AC1B7317426F1B00AB09E1 /* KMSTranscriptEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSTranscriptEntry.h; sourceTree = "<group>"; };
+		22AC1B7417426F1B00AB09E1 /* KMSTranscriptEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSTranscriptEntry.m; sourceTree = "<group>"; };
+		22AC1B7B17426F1B00AB09E1 /* ftp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ftp.json; sourceTree = "<group>"; };
+		22AC1B7C17426F1B00AB09E1 /* http.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = http.json; sourceTree = "<group>"; };
+		22AC1B9917426F1C00AB09E1 /* webdav.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = webdav.json; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* DAVKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVKit_Prefix.pch; sourceTree = "<group>"; };
+		5FEEF26016CE830C002C1CBF /* libDAVKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDAVKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEEF26216CE830C002C1CBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FEEF28316CE8596002C1CBF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		5FEEF28516CE868A002C1CBF /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* DAVKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DAVKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9181BBA121DC31D0022E4AC /* DAVResponseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVResponseItem.h; path = Sources/Core/DAVResponseItem.h; sourceTree = "<group>"; };
+		C9181BBB121DC31D0022E4AC /* DAVResponseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVResponseItem.m; path = Sources/Core/DAVResponseItem.m; sourceTree = "<group>"; };
+		C9A4E37C1406E12C004E4AEB /* DAVRequestGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVRequestGroup.h; path = Sources/Core/DAVRequestGroup.h; sourceTree = "<group>"; };
+		C9A4E37D1406E12C004E4AEB /* DAVRequestGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVRequestGroup.m; path = Sources/Core/DAVRequestGroup.m; sourceTree = "<group>"; };
+		C9A4E39E1406E9CF004E4AEB /* DAVBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVBaseRequest.h; path = Sources/Core/DAVBaseRequest.h; sourceTree = "<group>"; };
+		C9A4E39F1406E9CF004E4AEB /* DAVBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVBaseRequest.m; path = Sources/Core/DAVBaseRequest.m; sourceTree = "<group>"; };
+		C9FED591121D989900DD1DFF /* DAVKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVKit.h; path = Sources/Core/DAVKit.h; sourceTree = "<group>"; };
+		C9FED592121D989900DD1DFF /* DAVListingParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVListingParser.h; path = Sources/Core/DAVListingParser.h; sourceTree = "<group>"; };
+		C9FED593121D989900DD1DFF /* DAVListingParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVListingParser.m; path = Sources/Core/DAVListingParser.m; sourceTree = "<group>"; };
+		C9FED594121D989900DD1DFF /* DAVRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVRequest.h; path = Sources/Core/DAVRequest.h; sourceTree = "<group>"; };
+		C9FED595121D989900DD1DFF /* DAVRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVRequest.m; path = Sources/Core/DAVRequest.m; sourceTree = "<group>"; };
+		C9FED596121D989900DD1DFF /* DAVRequest+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DAVRequest+Private.h"; path = "Sources/Core/DAVRequest+Private.h"; sourceTree = "<group>"; };
+		C9FED597121D989900DD1DFF /* DAVPutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVPutRequest.h; path = Sources/Core/DAVPutRequest.h; sourceTree = "<group>"; };
+		C9FED598121D989900DD1DFF /* DAVPutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVPutRequest.m; path = Sources/Core/DAVPutRequest.m; sourceTree = "<group>"; };
+		C9FED599121D989900DD1DFF /* DAVSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVSession.h; path = Sources/Core/DAVSession.h; sourceTree = "<group>"; };
+		C9FED59A121D989900DD1DFF /* DAVSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVSession.m; path = Sources/Core/DAVSession.m; sourceTree = "<group>"; };
+		C9FED5AD121D98B800DD1DFF /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		C9FED5AE121D98B800DD1DFF /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		C9FED5B1121D98D600DD1DFF /* BasicTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTests.h; path = Sources/Tests/BasicTests.h; sourceTree = "<group>"; };
+		C9FED5B2121D98D600DD1DFF /* BasicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicTests.m; path = Sources/Tests/BasicTests.m; sourceTree = "<group>"; };
+		C9FED5B7121D98D600DD1DFF /* DAVTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAVTest.h; path = Sources/Tests/DAVTest.h; sourceTree = "<group>"; };
+		C9FED5B8121D98D600DD1DFF /* DAVTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAVTest.m; path = Sources/Tests/DAVTest.m; sourceTree = "<group>"; };
+		C9FF77EC121C6F51001250C7 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FF77ED121C6F51001250C7 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		F94970EB132A093600713958 /* NSDateRFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateRFC1123.h; sourceTree = "<group>"; };
+		F94970EC132A093600713958 /* NSDateRFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateRFC1123.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221F8BA217259BFF004E7B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221F8BB417259F60004E7B9D /* MobileCoreServices.framework in Frameworks */,
+				221F8BAC17259C79004E7B9D /* libDAVKit.a in Frameworks */,
+				221F8BAF17259DD7004E7B9D /* Foundation.framework in Frameworks */,
+				221F8BB317259F16004E7B9D /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEEF25D16CE830C002C1CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEEF28416CE8598002C1CBF /* MobileCoreServices.framework in Frameworks */,
+				5FEEF26316CE830C002C1CBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEEF28616CE868B002C1CBF /* CoreServices.framework in Frameworks */,
+				5FEEF28216CE854C002C1CBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FF77E9121C6F51001250C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FF7821121C7224001250C7 /* DAVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* DAVKit.framework */,
+				C9FF77EC121C6F51001250C7 /* Tests.octest */,
+				5FEEF26016CE830C002C1CBF /* libDAVKit.a */,
+				221F8BA817259BFF004E7B9D /* Tests iOS.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* DAVKit */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				5FEEF26116CE830C002C1CBF /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = DAVKit;
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				C9FF77ED121C6F51001250C7 /* Tests-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9FED591121D989900DD1DFF /* DAVKit.h */,
+				C9FF779F121C6BDF001250C7 /* Core */,
+				221D56C01726A57A00527AD9 /* Requests */,
+				C9FF7787121C6B8B001250C7 /* ISO8601 */,
+				C9FF77A1121C6BF0001250C7 /* Private */,
+				F94970EA132A093600713958 /* RFC1123 */,
+				C9FF77A2121C6C1A001250C7 /* Tests */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		221D56C01726A57A00527AD9 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				221D56C11726A60C00527AD9 /* DAVRequests.h */,
+				221D569C1726A38600527AD9 /* DAVCopyRequest.h */,
+				221D569D1726A38600527AD9 /* DAVCopyRequest.m */,
+				221D56A21726A40000527AD9 /* DAVDeleteRequest.h */,
+				221D56A31726A40000527AD9 /* DAVDeleteRequest.m */,
+				221D56A81726A43E00527AD9 /* DAVGetRequest.h */,
+				221D56A91726A43E00527AD9 /* DAVGetRequest.m */,
+				221D56AE1726A47E00527AD9 /* DAVListingRequest.h */,
+				221D56AF1726A47E00527AD9 /* DAVListingRequest.m */,
+				221D56B41726A4D600527AD9 /* DAVMakeCollectionRequest.h */,
+				221D56B51726A4D600527AD9 /* DAVMakeCollectionRequest.m */,
+				221D56BA1726A51400527AD9 /* DAVMoveRequest.h */,
+				221D56BB1726A51400527AD9 /* DAVMoveRequest.m */,
+				C9FED597121D989900DD1DFF /* DAVPutRequest.h */,
+				C9FED598121D989900DD1DFF /* DAVPutRequest.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		22AC1B4E17426F1B00AB09E1 /* MockServer */ = {
+			isa = PBXGroup;
+			children = (
+				22AC1BFB1742808400AB09E1 /* Code */,
+				22AC1B7A17426F1B00AB09E1 /* Responses */,
+			);
+			name = MockServer;
+			path = Tests/MockServer;
+			sourceTree = "<group>";
+		};
+		22AC1B7A17426F1B00AB09E1 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				22AC1B7B17426F1B00AB09E1 /* ftp.json */,
+				22AC1B7C17426F1B00AB09E1 /* http.json */,
+				22AC1B9917426F1C00AB09E1 /* webdav.json */,
+			);
+			name = Responses;
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		22AC1BFB1742808400AB09E1 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				22AC1B5817426F1B00AB09E1 /* KMSCloseCommand.h */,
+				22AC1B5917426F1B00AB09E1 /* KMSCloseCommand.m */,
+				22AC1B5A17426F1B00AB09E1 /* KMSCommand.h */,
+				22AC1B5B17426F1B00AB09E1 /* KMSCommand.m */,
+				22AC1B5C17426F1B00AB09E1 /* KMSConnection.h */,
+				22AC1B5D17426F1B00AB09E1 /* KMSConnection.m */,
+				22AC1B5E17426F1B00AB09E1 /* KMSListener.h */,
+				22AC1B5F17426F1B00AB09E1 /* KMSListener.m */,
+				22AC1B6017426F1B00AB09E1 /* KMSPauseCommand.h */,
+				22AC1B6117426F1B00AB09E1 /* KMSPauseCommand.m */,
+				22AC1B6217426F1B00AB09E1 /* KMSRegExResponder.h */,
+				22AC1B6317426F1B00AB09E1 /* KMSRegExResponder.m */,
+				22AC1B6417426F1B00AB09E1 /* KMSResponder.h */,
+				22AC1B6517426F1B00AB09E1 /* KMSResponder.m */,
+				22AC1B6617426F1B00AB09E1 /* KMSResponseCollection.h */,
+				22AC1B6717426F1B00AB09E1 /* KMSResponseCollection.m */,
+				22AC1B6817426F1B00AB09E1 /* KMSSendDataCommand.h */,
+				22AC1B6917426F1B00AB09E1 /* KMSSendDataCommand.m */,
+				22AC1B6A17426F1B00AB09E1 /* KMSSendServerDataCommand.h */,
+				22AC1B6B17426F1B00AB09E1 /* KMSSendServerDataCommand.m */,
+				22AC1B6C17426F1B00AB09E1 /* KMSSendStringCommand.h */,
+				22AC1B6D17426F1B00AB09E1 /* KMSSendStringCommand.m */,
+				22AC1B6E17426F1B00AB09E1 /* KMSServer.h */,
+				22AC1B6F17426F1B00AB09E1 /* KMSServer.m */,
+				22AC1B7017426F1B00AB09E1 /* KMSState.h */,
+				22AC1B7117426F1B00AB09E1 /* KMSTestCase.h */,
+				22AC1B7217426F1B00AB09E1 /* KMSTestCase.m */,
+				22AC1B7317426F1B00AB09E1 /* KMSTranscriptEntry.h */,
+				22AC1B7417426F1B00AB09E1 /* KMSTranscriptEntry.m */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* DAVKit_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		5FEEF26116CE830C002C1CBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				221F8BB217259F16004E7B9D /* SenTestingKit.framework */,
+				5FEEF26216CE830C002C1CBF /* Foundation.framework */,
+				5FEEF28816CE869C002C1CBF /* iOS */,
+				5FEEF28716CE8696002C1CBF /* OSX */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FEEF28716CE8696002C1CBF /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				5FEEF28516CE868A002C1CBF /* CoreServices.framework */,
+			);
+			name = OSX;
+			sourceTree = "<group>";
+		};
+		5FEEF28816CE869C002C1CBF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5FEEF28316CE8596002C1CBF /* MobileCoreServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9FF7787121C6B8B001250C7 /* ISO8601 */ = {
+			isa = PBXGroup;
+			children = (
+				C9FED5AD121D98B800DD1DFF /* ISO8601DateFormatter.h */,
+				C9FED5AE121D98B800DD1DFF /* ISO8601DateFormatter.m */,
+			);
+			name = ISO8601;
+			path = "Sources/iso-8601-date-formatter";
+			sourceTree = "<group>";
+		};
+		C9FF779F121C6BDF001250C7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C9A4E39E1406E9CF004E4AEB /* DAVBaseRequest.h */,
+				C9A4E39F1406E9CF004E4AEB /* DAVBaseRequest.m */,
+				C9FED594121D989900DD1DFF /* DAVRequest.h */,
+				C9FED595121D989900DD1DFF /* DAVRequest.m */,
+				C9A4E37C1406E12C004E4AEB /* DAVRequestGroup.h */,
+				C9A4E37D1406E12C004E4AEB /* DAVRequestGroup.m */,
+				C9181BBA121DC31D0022E4AC /* DAVResponseItem.h */,
+				C9181BBB121DC31D0022E4AC /* DAVResponseItem.m */,
+				C9FED599121D989900DD1DFF /* DAVSession.h */,
+				C9FED59A121D989900DD1DFF /* DAVSession.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C9FF77A1121C6BF0001250C7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				C9FED592121D989900DD1DFF /* DAVListingParser.h */,
+				C9FED593121D989900DD1DFF /* DAVListingParser.m */,
+				C9FED596121D989900DD1DFF /* DAVRequest+Private.h */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		C9FF77A2121C6C1A001250C7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9FED5B1121D98D600DD1DFF /* BasicTests.h */,
+				C9FED5B2121D98D600DD1DFF /* BasicTests.m */,
+				C9FED5B7121D98D600DD1DFF /* DAVTest.h */,
+				C9FED5B8121D98D600DD1DFF /* DAVTest.m */,
+				22AC1B4E17426F1B00AB09E1 /* MockServer */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		F94970EA132A093600713958 /* RFC1123 */ = {
+			isa = PBXGroup;
+			children = (
+				F94970EB132A093600713958 /* NSDateRFC1123.h */,
+				F94970EC132A093600713958 /* NSDateRFC1123.m */,
+			);
+			name = RFC1123;
+			path = Sources/RFC1123;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FEEF26E16CE8408002C1CBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEEF26F16CE840F002C1CBF /* DAVKit.h in Headers */,
+				5FEEF27016CE8426002C1CBF /* NSDateRFC1123.h in Headers */,
+				5FEEF27116CE842E002C1CBF /* DAVListingParser.h in Headers */,
+				5FEEF27416CE8446002C1CBF /* DAVRequest+Private.h in Headers */,
+				5FEEF27616CE8461002C1CBF /* DAVBaseRequest.h in Headers */,
+				5FEEF27816CE8461002C1CBF /* DAVRequest.h in Headers */,
+				5FEEF27A16CE8461002C1CBF /* DAVRequestGroup.h in Headers */,
+				5FEEF27C16CE8461002C1CBF /* DAVPutRequest.h in Headers */,
+				5FEEF27E16CE8461002C1CBF /* DAVResponseItem.h in Headers */,
+				5FEEF28016CE8461002C1CBF /* DAVSession.h in Headers */,
+				221D569F1726A38600527AD9 /* DAVCopyRequest.h in Headers */,
+				221D56A51726A40000527AD9 /* DAVDeleteRequest.h in Headers */,
+				221D56AB1726A43E00527AD9 /* DAVGetRequest.h in Headers */,
+				221D56B11726A47E00527AD9 /* DAVListingRequest.h in Headers */,
+				221D56B71726A4D600527AD9 /* DAVMakeCollectionRequest.h in Headers */,
+				221D56BD1726A51400527AD9 /* DAVMoveRequest.h in Headers */,
+				221D56C31726A60C00527AD9 /* DAVRequests.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A4E3A01406E9CF004E4AEB /* DAVBaseRequest.h in Headers */,
+				C9FED59D121D989900DD1DFF /* DAVKit.h in Headers */,
+				C9FED59E121D989900DD1DFF /* DAVListingParser.h in Headers */,
+				C9FED5A0121D989900DD1DFF /* DAVRequest.h in Headers */,
+				C9A4E37E1406E12C004E4AEB /* DAVRequestGroup.h in Headers */,
+				C9FED5A2121D989900DD1DFF /* DAVRequest+Private.h in Headers */,
+				C9FED5A3121D989900DD1DFF /* DAVPutRequest.h in Headers */,
+				C9FED5A5121D989900DD1DFF /* DAVSession.h in Headers */,
+				C9FED5AF121D98B800DD1DFF /* ISO8601DateFormatter.h in Headers */,
+				C9181BBC121DC31D0022E4AC /* DAVResponseItem.h in Headers */,
+				F94970ED132A093600713958 /* NSDateRFC1123.h in Headers */,
+				221D569E1726A38600527AD9 /* DAVCopyRequest.h in Headers */,
+				221D56A41726A40000527AD9 /* DAVDeleteRequest.h in Headers */,
+				221D56AA1726A43E00527AD9 /* DAVGetRequest.h in Headers */,
+				221D56B01726A47E00527AD9 /* DAVListingRequest.h in Headers */,
+				221D56B61726A4D600527AD9 /* DAVMakeCollectionRequest.h in Headers */,
+				221D56BC1726A51400527AD9 /* DAVMoveRequest.h in Headers */,
+				221D56C21726A60C00527AD9 /* DAVRequests.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		221F8B9517259BFF004E7B9D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221F8BA517259BFF004E7B9D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				221F8B9817259BFF004E7B9D /* Resources */,
+				221F8B9917259BFF004E7B9D /* Sources */,
+				221F8BA217259BFF004E7B9D /* Frameworks */,
+				221F8BA417259BFF004E7B9D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				221F8BAB17259C70004E7B9D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = Tests;
+			productReference = 221F8BA817259BFF004E7B9D /* Tests iOS.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+		5FEEF25F16CE830C002C1CBF /* DAVKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEEF26D16CE830C002C1CBF /* Build configuration list for PBXNativeTarget "DAVKit iOS" */;
+			buildPhases = (
+				5FEEF25C16CE830C002C1CBF /* Sources */,
+				5FEEF25D16CE830C002C1CBF /* Frameworks */,
+				5FEEF26E16CE8408002C1CBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DAVKit iOS";
+			productName = "DAVKit-iOS";
+			productReference = 5FEEF26016CE830C002C1CBF /* libDAVKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DC2EF4F0486A6940098B216 /* DAVKit OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "DAVKit OS X" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DAVKit OS X";
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = DAVKit;
+			productReference = 8DC2EF5B0486A6940098B216 /* DAVKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9FF77EB121C6F51001250C7 /* Tests OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FF77F1121C6F52001250C7 /* Build configuration list for PBXNativeTarget "Tests OS X" */;
+			buildPhases = (
+				C9FF77E7121C6F51001250C7 /* Resources */,
+				C9FF77E8121C6F51001250C7 /* Sources */,
+				C9FF77E9121C6F51001250C7 /* Frameworks */,
+				C9FF77EA121C6F51001250C7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9FF77F3121C6F58001250C7 /* PBXTargetDependency */,
+			);
+			name = "Tests OS X";
+			productName = Tests;
+			productReference = C9FF77EC121C6F51001250C7 /* Tests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "DAVKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* DAVKit */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* DAVKit OS X */,
+				C9FF77EB121C6F51001250C7 /* Tests OS X */,
+				5FEEF25F16CE830C002C1CBF /* DAVKit iOS */,
+				221F8B9517259BFF004E7B9D /* Tests iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		221F8B9817259BFF004E7B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AC1BED17426F1C00AB09E1 /* webdav.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FF77E7121C6F51001250C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AC1BEC17426F1C00AB09E1 /* webdav.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		221F8BA417259BFF004E7B9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FF77EA121C6F51001250C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221F8B9917259BFF004E7B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221F8B9A17259BFF004E7B9D /* BasicTests.m in Sources */,
+				221F8B9D17259BFF004E7B9D /* DAVTest.m in Sources */,
+				22AC1BAB17426F1C00AB09E1 /* KMSCloseCommand.m in Sources */,
+				22AC1BAD17426F1C00AB09E1 /* KMSCommand.m in Sources */,
+				22AC1BAF17426F1C00AB09E1 /* KMSConnection.m in Sources */,
+				22AC1BB117426F1C00AB09E1 /* KMSListener.m in Sources */,
+				22AC1BB317426F1C00AB09E1 /* KMSPauseCommand.m in Sources */,
+				22AC1BB517426F1C00AB09E1 /* KMSRegExResponder.m in Sources */,
+				22AC1BB717426F1C00AB09E1 /* KMSResponder.m in Sources */,
+				22AC1BB917426F1C00AB09E1 /* KMSResponseCollection.m in Sources */,
+				22AC1BBB17426F1C00AB09E1 /* KMSSendDataCommand.m in Sources */,
+				22AC1BBD17426F1C00AB09E1 /* KMSSendServerDataCommand.m in Sources */,
+				22AC1BBF17426F1C00AB09E1 /* KMSSendStringCommand.m in Sources */,
+				22AC1BC117426F1C00AB09E1 /* KMSServer.m in Sources */,
+				22AC1BC317426F1C00AB09E1 /* KMSTestCase.m in Sources */,
+				22AC1BC517426F1C00AB09E1 /* KMSTranscriptEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEEF25C16CE830C002C1CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEEF27216CE8438002C1CBF /* DAVListingParser.m in Sources */,
+				5FEEF27316CE843C002C1CBF /* NSDateRFC1123.m in Sources */,
+				5FEEF27516CE844E002C1CBF /* ISO8601DateFormatter.m in Sources */,
+				5FEEF27716CE8461002C1CBF /* DAVBaseRequest.m in Sources */,
+				5FEEF27916CE8461002C1CBF /* DAVRequest.m in Sources */,
+				5FEEF27B16CE8461002C1CBF /* DAVRequestGroup.m in Sources */,
+				5FEEF27D16CE8461002C1CBF /* DAVPutRequest.m in Sources */,
+				5FEEF27F16CE8461002C1CBF /* DAVResponseItem.m in Sources */,
+				5FEEF28116CE8461002C1CBF /* DAVSession.m in Sources */,
+				221D56A11726A38600527AD9 /* DAVCopyRequest.m in Sources */,
+				221D56A71726A40000527AD9 /* DAVDeleteRequest.m in Sources */,
+				221D56AD1726A43E00527AD9 /* DAVGetRequest.m in Sources */,
+				221D56B31726A47E00527AD9 /* DAVListingRequest.m in Sources */,
+				221D56B91726A4D600527AD9 /* DAVMakeCollectionRequest.m in Sources */,
+				221D56BF1726A51400527AD9 /* DAVMoveRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FED59F121D989900DD1DFF /* DAVListingParser.m in Sources */,
+				C9FED5A1121D989900DD1DFF /* DAVRequest.m in Sources */,
+				C9FED5A4121D989900DD1DFF /* DAVPutRequest.m in Sources */,
+				C9FED5A6121D989900DD1DFF /* DAVSession.m in Sources */,
+				C9FED5B0121D98B800DD1DFF /* ISO8601DateFormatter.m in Sources */,
+				C9181BBD121DC31D0022E4AC /* DAVResponseItem.m in Sources */,
+				F94970EE132A093600713958 /* NSDateRFC1123.m in Sources */,
+				C9A4E37F1406E12C004E4AEB /* DAVRequestGroup.m in Sources */,
+				C9A4E3A11406E9CF004E4AEB /* DAVBaseRequest.m in Sources */,
+				221D56A01726A38600527AD9 /* DAVCopyRequest.m in Sources */,
+				221D56A61726A40000527AD9 /* DAVDeleteRequest.m in Sources */,
+				221D56AC1726A43E00527AD9 /* DAVGetRequest.m in Sources */,
+				221D56B21726A47E00527AD9 /* DAVListingRequest.m in Sources */,
+				221D56B81726A4D600527AD9 /* DAVMakeCollectionRequest.m in Sources */,
+				221D56BE1726A51400527AD9 /* DAVMoveRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FF77E8121C6F51001250C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FED5C1121D98D600DD1DFF /* BasicTests.m in Sources */,
+				C9FED5C4121D98D600DD1DFF /* DAVTest.m in Sources */,
+				22AC1BAA17426F1C00AB09E1 /* KMSCloseCommand.m in Sources */,
+				22AC1BAC17426F1C00AB09E1 /* KMSCommand.m in Sources */,
+				22AC1BAE17426F1C00AB09E1 /* KMSConnection.m in Sources */,
+				22AC1BB017426F1C00AB09E1 /* KMSListener.m in Sources */,
+				22AC1BB217426F1C00AB09E1 /* KMSPauseCommand.m in Sources */,
+				22AC1BB417426F1C00AB09E1 /* KMSRegExResponder.m in Sources */,
+				22AC1BB617426F1C00AB09E1 /* KMSResponder.m in Sources */,
+				22AC1BB817426F1C00AB09E1 /* KMSResponseCollection.m in Sources */,
+				22AC1BBA17426F1C00AB09E1 /* KMSSendDataCommand.m in Sources */,
+				22AC1BBC17426F1C00AB09E1 /* KMSSendServerDataCommand.m in Sources */,
+				22AC1BBE17426F1C00AB09E1 /* KMSSendStringCommand.m in Sources */,
+				22AC1BC017426F1C00AB09E1 /* KMSServer.m in Sources */,
+				22AC1BC217426F1C00AB09E1 /* KMSTestCase.m in Sources */,
+				22AC1BC417426F1C00AB09E1 /* KMSTranscriptEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		221F8BAB17259C70004E7B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FEEF25F16CE830C002C1CBF /* DAVKit iOS */;
+			targetProxy = 221F8BAA17259C70004E7B9D /* PBXContainerItemProxy */;
+		};
+		C9FF77F3121C6F58001250C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* DAVKit OS X */;
+			targetProxy = C9FF77F2121C6F58001250C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DAVKit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattRajca.${PRODUCT_NAME:rfc1034Identifier}";
+				PRODUCT_NAME = DAVKit;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DAVKit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattRajca.${PRODUCT_NAME:rfc1034Identifier}";
+				PRODUCT_NAME = DAVKit;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		221F8BA617259BFF004E7B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DAVKit_Prefix.pch;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattRajca.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Tests iOS";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		221F8BA717259BFF004E7B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DAVKit_Prefix.pch;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattRajca.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Tests iOS";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5FEEF26B16CE830C002C1CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/DAVKit_iOS.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DAVKit_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DAVKit;
+				PUBLIC_HEADERS_FOLDER_PATH = include/DAVKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5FEEF26C16CE830C002C1CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/DAVKit_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DAVKit_Prefix.pch;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DAVKit;
+				PUBLIC_HEADERS_FOLDER_PATH = include/DAVKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9FF77EF121C6F52001250C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattRajca.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Tests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9FF77F0121C6F52001250C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MattRajca.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Tests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "DAVKit OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "DAVKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221F8BA517259BFF004E7B9D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221F8BA617259BFF004E7B9D /* Debug */,
+				221F8BA717259BFF004E7B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEEF26D16CE830C002C1CBF /* Build configuration list for PBXNativeTarget "DAVKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEEF26B16CE830C002C1CBF /* Debug */,
+				5FEEF26C16CE830C002C1CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FF77F1121C6F52001250C7 /* Build configuration list for PBXNativeTarget "Tests OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FF77EF121C6F52001250C7 /* Debug */,
+				C9FF77F0121C6F52001250C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

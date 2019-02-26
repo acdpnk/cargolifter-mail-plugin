@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CLOAuthViewController">
+            <connections>
+                <outlet property="cancelButton" destination="oP8-MM-o0Y" id="Dcz-5e-NZR"/>
+                <outlet property="loadingOverlay" destination="VQ2-vC-7RG" id="wyY-oQ-Hfg"/>
+                <outlet property="navigationButton" destination="H19-Wn-XyT" id="P5r-yn-Vc0"/>
+                <outlet property="progressIndicator" destination="fdQ-Dn-ciB" id="kVY-Jo-1oj"/>
+                <outlet property="view" destination="HoZ-Sl-m74" id="gyc-FC-ruJ"/>
+                <outlet property="window" destination="hM5-5l-hN0" id="Ft2-td-0Qz"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="hM5-5l-hN0">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="283" y="311" width="532" height="674"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="HoZ-Sl-m74">
+                <rect key="frame" x="0.0" y="0.0" width="532" height="674"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oP8-MM-o0Y">
+                        <rect key="frame" x="436" y="13" width="82" height="32"/>
+                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="U0U-Yv-Aiy">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="cancel:" target="-2" id="F1F-SC-7ff"/>
+                        </connections>
+                    </button>
+                    <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="H19-Wn-XyT">
+                        <rect key="frame" x="18" y="18" width="71" height="24"/>
+                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="momentary" id="OOn-os-Yg4">
+                            <font key="font" metaFont="system"/>
+                            <segments>
+                                <segment image="NSLeftFacingTriangleTemplate" width="32"/>
+                                <segment image="NSRightFacingTriangleTemplate" width="32" tag="1"/>
+                            </segments>
+                        </segmentedCell>
+                        <connections>
+                            <action selector="navigate:" target="-2" id="YUb-Vy-nhk"/>
+                        </connections>
+                    </segmentedControl>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mod-mX-QUV">
+                        <rect key="frame" x="89" y="13" width="47" height="32"/>
+                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" image="NSRefreshTemplate" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0nt-NQ-lkN">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="refresh:" target="-2" id="Ath-2c-q7f"/>
+                        </connections>
+                    </button>
+                    <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="RDl-x9-3Nk">
+                        <rect key="frame" x="0.0" y="50" width="532" height="5"/>
+                    </box>
+                    <box boxType="custom" borderType="none" cornerRadius="4" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="VQ2-vC-7RG">
+                        <rect key="frame" x="0.0" y="53" width="532" height="621"/>
+                        <view key="contentView" id="Ot9-KP-65n">
+                            <rect key="frame" x="0.0" y="0.0" width="532" height="621"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" doubleValue="20" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="fdQ-Dn-ciB">
+                                    <rect key="frame" x="250" y="295" width="32" height="32"/>
+                                </progressIndicator>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="fdQ-Dn-ciB" firstAttribute="centerY" secondItem="Ot9-KP-65n" secondAttribute="centerY" id="dJ9-hJ-Qlv"/>
+                                <constraint firstItem="fdQ-Dn-ciB" firstAttribute="centerX" secondItem="Ot9-KP-65n" secondAttribute="centerX" id="v3g-8F-1qh"/>
+                            </constraints>
+                        </view>
+                        <color key="fillColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </box>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="RDl-x9-3Nk" secondAttribute="trailing" id="0VK-Ya-JTh"/>
+                    <constraint firstItem="H19-Wn-XyT" firstAttribute="leading" secondItem="HoZ-Sl-m74" secondAttribute="leading" constant="20" id="7qL-Ff-Ysv"/>
+                    <constraint firstItem="VQ2-vC-7RG" firstAttribute="leading" secondItem="HoZ-Sl-m74" secondAttribute="leading" id="9VT-q0-jlY"/>
+                    <constraint firstAttribute="bottom" secondItem="oP8-MM-o0Y" secondAttribute="bottom" constant="20" symbolic="YES" id="BJT-WR-yyb"/>
+                    <constraint firstAttribute="trailing" secondItem="oP8-MM-o0Y" secondAttribute="trailing" constant="20" symbolic="YES" id="Bl7-JM-pl9"/>
+                    <constraint firstItem="H19-Wn-XyT" firstAttribute="top" secondItem="RDl-x9-3Nk" secondAttribute="bottom" constant="11" id="Eco-ZQ-6f4"/>
+                    <constraint firstAttribute="bottom" secondItem="H19-Wn-XyT" secondAttribute="bottom" constant="20" id="MtX-7b-LrP"/>
+                    <constraint firstItem="RDl-x9-3Nk" firstAttribute="leading" secondItem="HoZ-Sl-m74" secondAttribute="leading" id="RZL-vc-KOk"/>
+                    <constraint firstAttribute="bottom" secondItem="mod-mX-QUV" secondAttribute="bottom" constant="20" id="Wci-7e-PtJ"/>
+                    <constraint firstItem="RDl-x9-3Nk" firstAttribute="top" secondItem="VQ2-vC-7RG" secondAttribute="bottom" id="dGG-IO-nmU"/>
+                    <constraint firstItem="VQ2-vC-7RG" firstAttribute="top" secondItem="HoZ-Sl-m74" secondAttribute="top" id="ocC-51-Rf6"/>
+                    <constraint firstItem="mod-mX-QUV" firstAttribute="leading" secondItem="H19-Wn-XyT" secondAttribute="trailing" constant="8" symbolic="YES" id="rlB-N9-VZb"/>
+                    <constraint firstAttribute="trailing" secondItem="VQ2-vC-7RG" secondAttribute="trailing" id="yCu-HE-Fpu"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="-3518" y="282"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="NSLeftFacingTriangleTemplate" width="9" height="12"/>
+        <image name="NSRefreshTemplate" width="11" height="15"/>
+        <image name="NSRightFacingTriangleTemplate" width="9" height="12"/>
+    </resources>
+</document>

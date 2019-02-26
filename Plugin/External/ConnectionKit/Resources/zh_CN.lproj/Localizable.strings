@@ -1,0 +1,88 @@
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\n您想要怎么做？";
+
+/* ConnectionOpenPanel */
+"An unknown error occurred." = "发生了未知错误。";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "你确定要停止上传吗？";
+
+/* authorise */
+"Authorize" = "批准";
+
+/* authorise */
+"Authorize Connection?" = "批准连接？";
+
+/* config */
+"Bad Configuration" = "不良配置";
+
+/* error */
+"Bad Droplet" = "不良 Droplet";
+
+/* filesize: bytes */
+"bytes" = "字节";
+
+/* authorise */
+"Cancel" = "取消";
+
+/* connected message */
+"Connected to %@" = "已连接到 %@";
+
+/* connection string */
+"Connecting to %@" = "正在连接到 %@";
+
+/* close window */
+"Continue Upload" = "继续上传";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "无法找到指定的配置文件\n %@";
+
+/* status */
+"Disconnected" = "已断开";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* filesize: kilobytes */
+"KB" = "KB";
+
+/* FTP download error */
+"Local File already exists" = "本机文件已存在";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* config */
+"No configuration file specified" = "没有指定的配置文件";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "请求的连接类型没有可用的连接";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* ConnectionOpenPanel */
+"Please check your settings." = "请检查你的设置。";
+
+/* config
+   error */
+
+"Quit" = "退出";
+
+/* close window */
+"Stop Upload" = "停止上传";
+
+/* close window */
+"Stop Upload?" = "停止上传？";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "该 Droplet 丢失了创建它的原应用程序。你需要重新安装该应用程序。";
+
+/* status */
+"Uploading %@" = "正在上传 %@";

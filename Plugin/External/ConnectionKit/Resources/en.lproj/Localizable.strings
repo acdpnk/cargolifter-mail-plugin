@@ -1,0 +1,88 @@
+﻿/* authorise */
+"%@\nWhat would you like to do?" = "%@\nWhat would you like to do?";
+
+/* ConnectionOpenPanel */
+"An unknown error occurred." = "An unknown error occurred.";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "Are you sure you want to stop the upload?";
+
+/* authorise */
+"Authorize" = "Authorize";
+
+/* authorise */
+"Authorize Connection?" = "Authorize Connection?";
+
+/* config */
+"Bad Configuration" = "Bad Configuration";
+
+/* error */
+"Bad Droplet" = "Bad Droplet";
+
+/* filesize: bytes */
+"bytes" = "bytes";
+
+/* authorise */
+"Cancel" = "Cancel";
+
+/* connected message */
+"Connected to %@" = "Connected to %@";
+
+/* connection string */
+"Connecting to %@" = "Connecting to %@";
+
+/* close window */
+"Continue Upload" = "Continue Upload";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "Couldn't find configuration file specified\n %@";
+
+/* status */
+"Disconnected" = "Disconnected";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* filesize: kilobytes */
+"KB" = "KB";
+
+/* FTP download error */
+"Local File already exists" = "Local File already exists";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* config */
+"No configuration file specified" = "No configuration file specified";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "No connection available for requested connection type";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* ConnectionOpenPanel */
+"Please check your settings." = "Please check your settings.";
+
+/* config
+   error */
+"Quit" = "Quit";
+
+/* close window */
+"Stop Upload" = "Stop Upload";
+
+/* close window */
+"Stop Upload?" = "Stop Upload?";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "This droplet is missing the original application that created it. You will need to reinstall the original application.";
+
+/* status */
+"Uploading %@" = "Uploading %@";
+

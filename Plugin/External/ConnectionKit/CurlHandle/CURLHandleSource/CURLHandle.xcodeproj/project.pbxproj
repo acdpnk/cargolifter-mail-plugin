@@ -1,0 +1,1556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		227FCE591741462200C3029D /* libcurl-tests-x86_64 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 227FCE631741462200C3029D /* Build configuration list for PBXAggregateTarget "libcurl-tests-x86_64" */;
+			buildPhases = (
+				227FCE621741462200C3029D /* Run Script */,
+			);
+			dependencies = (
+			);
+			name = "libcurl-tests-x86_64";
+			productName = libcurl;
+		};
+		8008030A16696287004D39F5 /* libcurl-i386 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8008030B16696287004D39F5 /* Build configuration list for PBXAggregateTarget "libcurl-i386" */;
+			buildPhases = (
+				800803191669665D004D39F5 /* Run Script - Configure + make */,
+			);
+			dependencies = (
+			);
+			name = "libcurl-i386";
+			productName = "libcurl-i386";
+		};
+		8008030E16696292004D39F5 /* libcurl-x86_64 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8008030F16696292004D39F5 /* Build configuration list for PBXAggregateTarget "libcurl-x86_64" */;
+			buildPhases = (
+				8008031B16696675004D39F5 /* Run Script - Configure + make */,
+			);
+			dependencies = (
+			);
+			name = "libcurl-x86_64";
+			productName = "libcurl-x86_64";
+		};
+		8008031F166A9514004D39F5 /* libcares */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80080320166A9514004D39F5 /* Build configuration list for PBXAggregateTarget "libcares" */;
+			buildPhases = (
+				80080337166A9651004D39F5 /* Run Script - lipo multi-arch dylib */,
+			);
+			dependencies = (
+				80080330166A9557004D39F5 /* PBXTargetDependency */,
+				80080332166A9557004D39F5 /* PBXTargetDependency */,
+				80080334166A9557004D39F5 /* PBXTargetDependency */,
+			);
+			name = libcares;
+			productName = libcares;
+		};
+		80080323166A951E004D39F5 /* libcares-clean */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80080324166A951E004D39F5 /* Build configuration list for PBXAggregateTarget "libcares-clean" */;
+			buildPhases = (
+				80080338166A9661004D39F5 /* Run Script - remove previous product dylibs */,
+			);
+			dependencies = (
+			);
+			name = "libcares-clean";
+			productName = "libcares-clean";
+		};
+		80080327166A952A004D39F5 /* libcares-i386 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80080328166A952A004D39F5 /* Build configuration list for PBXAggregateTarget "libcares-i386" */;
+			buildPhases = (
+				80080339166A966D004D39F5 /* Run Script - Configure + make */,
+			);
+			dependencies = (
+			);
+			name = "libcares-i386";
+			productName = "libcares-i386";
+		};
+		8008032B166A9535004D39F5 /* libcares-x86_64 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8008032C166A9535004D39F5 /* Build configuration list for PBXAggregateTarget "libcares-x86_64" */;
+			buildPhases = (
+				8008033B166A9682004D39F5 /* Run Script - Configure + make */,
+			);
+			dependencies = (
+			);
+			name = "libcares-x86_64";
+			productName = "libcares-x86_64";
+		};
+		809ADE7816029C38001D02E1 /* libcurl */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 809ADE7916029C38001D02E1 /* Build configuration list for PBXAggregateTarget "libcurl" */;
+			buildPhases = (
+				809AE1BC1602BE6C001D02E1 /* Run Script - lipo multi-arch dylib */,
+			);
+			dependencies = (
+				80080336166A9569004D39F5 /* PBXTargetDependency */,
+				809AE1C51602BF8A001D02E1 /* PBXTargetDependency */,
+				80080313166962A7004D39F5 /* PBXTargetDependency */,
+				80080315166962A7004D39F5 /* PBXTargetDependency */,
+			);
+			name = libcurl;
+			productName = libcurl;
+		};
+		809AE1BF1602BEF1001D02E1 /* libcurl-clean */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 809AE1C01602BEF1001D02E1 /* Build configuration list for PBXAggregateTarget "libcurl-clean" */;
+			buildPhases = (
+				809AE1C31602BEF5001D02E1 /* Run Script - remove previous product dylibs */,
+			);
+			dependencies = (
+			);
+			name = "libcurl-clean";
+			productName = "libcurl-clean";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22002EDD161097EC00464D33 /* CURLProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22002EDC161097EC00464D33 /* CURLProtocolTests.m */; };
+		220C118E1715A1CB0086F199 /* upload-root.c in Sources */ = {isa = PBXBuildFile; fileRef = 220C118D1715A1CB0086F199 /* upload-root.c */; };
+		220C11A3171606310086F199 /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = 220C11A2171606310086F199 /* Documentation */; };
+		221EAD11160B167900E4F270 /* CURLTransferStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 221EAD0F160B167900E4F270 /* CURLTransferStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221EAD12160B167900E4F270 /* CURLTransferStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 221EAD10160B167900E4F270 /* CURLTransferStack.m */; };
+		221F8B7B17255229004E7B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		223FD0A1160B523700BE1C80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 223FD09F160B523700BE1C80 /* InfoPlist.strings */; };
+		223FD0A4160B523700BE1C80 /* CURLMultiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 223FD0A3160B523700BE1C80 /* CURLMultiTests.m */; };
+		223FD0AC160B5F1200BE1C80 /* CURLTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 223FD0AB160B5F1200BE1C80 /* CURLTransferTests.m */; };
+		226B358D16ADAA6D004780A7 /* CURLHandle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* CURLHandle.framework */; };
+		2270F4A116108D44009B6F98 /* CURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2270F49F16108D44009B6F98 /* CURLRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2270F4A7161090AB009B6F98 /* CURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2270F4A5161090AB009B6F98 /* CURLResponse.h */; };
+		2270F4A8161090AB009B6F98 /* CURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270F4A6161090AB009B6F98 /* CURLResponse.m */; };
+		2270F4AC16109133009B6F98 /* CURLHTTPParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 2270F4AA16109133009B6F98 /* CURLHTTPParsing.h */; };
+		2270F4AD16109133009B6F98 /* CURLHTTPParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270F4AB16109133009B6F98 /* CURLHTTPParsing.m */; };
+		22731038161305FF00D6D49E /* CURLSocketRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 22731036161305FF00D6D49E /* CURLSocketRegistration.h */; };
+		22731039161305FF00D6D49E /* CURLSocketRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 22731037161305FF00D6D49E /* CURLSocketRegistration.m */; };
+		22767ED9161078F2008D0848 /* NSDictionary+CURLHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 22767ED7161078F1008D0848 /* NSDictionary+CURLHandle.h */; };
+		22767EDA161078F2008D0848 /* NSDictionary+CURLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22767ED8161078F1008D0848 /* NSDictionary+CURLHandle.m */; };
+		2287EBF116B7CF9A0039E555 /* KMSCloseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2287EBE616B7CF9A0039E555 /* KMSCloseCommand.m */; };
+		2287EBF216B7CF9A0039E555 /* KMSCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2287EBE816B7CF9A0039E555 /* KMSCommand.m */; };
+		2287EBF316B7CF9A0039E555 /* KMSPauseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2287EBEA16B7CF9A0039E555 /* KMSPauseCommand.m */; };
+		2287EBF416B7CF9A0039E555 /* KMSSendDataCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2287EBEC16B7CF9A0039E555 /* KMSSendDataCommand.m */; };
+		2287EBF516B7CF9A0039E555 /* KMSSendServerDataCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2287EBEE16B7CF9A0039E555 /* KMSSendServerDataCommand.m */; };
+		2287EBF616B7CF9A0039E555 /* KMSSendStringCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2287EBF016B7CF9A0039E555 /* KMSSendStringCommand.m */; };
+		229748FC1610C1AE0042A51A /* CURLHandleBasedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 229748FB1610C1AE0042A51A /* CURLHandleBasedTest.m */; };
+		22BCCE3016ADD63500DFFE8D /* libssh2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22BCCE2716ADD53000DFFE8D /* libssh2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22BCCE3316ADD66900DFFE8D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D77E151672BD9B0091EF91 /* Security.framework */; };
+		22BCCE3C16ADD73400DFFE8D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		22BCCE4816ADE58B00DFFE8D /* libssl.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22BCCE4516ADE52700DFFE8D /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22BCCE4916ADE58D00DFFE8D /* libcrypto.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22BCCE2816ADD53000DFFE8D /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22BF085516AEAA76009BE5A3 /* CURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2270F4A016108D44009B6F98 /* CURLRequest.m */; };
+		22BF085616AEAA7A009BE5A3 /* CK2SSHCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D77E121672BBB50091EF91 /* CK2SSHCredential.m */; };
+		22BF089C16AEECEC009BE5A3 /* KMSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF086316AEECEC009BE5A3 /* KMSConnection.m */; };
+		22BF089D16AEECEC009BE5A3 /* KMSListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF086516AEECEC009BE5A3 /* KMSListener.m */; };
+		22BF089E16AEECEC009BE5A3 /* KMSRegExResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF086716AEECEC009BE5A3 /* KMSRegExResponder.m */; };
+		22BF089F16AEECEC009BE5A3 /* KMSResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF086916AEECEC009BE5A3 /* KMSResponder.m */; };
+		22BF08A016AEECEC009BE5A3 /* KMSResponseCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF086B16AEECEC009BE5A3 /* KMSResponseCollection.m */; };
+		22BF08A116AEECEC009BE5A3 /* KMSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF086D16AEECEC009BE5A3 /* KMSServer.m */; };
+		22BF08A216AEECEC009BE5A3 /* KMSTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF087016AEECEC009BE5A3 /* KMSTestCase.m */; };
+		22BF08C116AEEDA9009BE5A3 /* KMSTranscriptEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF08C016AEEDA9009BE5A3 /* KMSTranscriptEntry.m */; };
+		22BF08E216AEEDD9009BE5A3 /* ftp.json in Resources */ = {isa = PBXBuildFile; fileRef = 22BF08C316AEEDD8009BE5A3 /* ftp.json */; };
+		22BF08E316AEEDD9009BE5A3 /* http.json in Resources */ = {isa = PBXBuildFile; fileRef = 22BF08C416AEEDD8009BE5A3 /* http.json */; };
+		22BF08F316AEEDD9009BE5A3 /* webdav.json in Resources */ = {isa = PBXBuildFile; fileRef = 22BF08E116AEEDD9009BE5A3 /* webdav.json */; };
+		22C9CFCF170364B8004610FE /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 809AE1C71602C7DD001D02E1 /* libcurl.dylib */; };
+		22C9CFD0170364FB004610FE /* libssl.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22BCCE4516ADE52700DFFE8D /* libssl.dylib */; };
+		22C9CFD1170364FB004610FE /* libcurl.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 809AE1C71602C7DD001D02E1 /* libcurl.dylib */; };
+		22C9CFD2170364FB004610FE /* libssh2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22BCCE2716ADD53000DFFE8D /* libssh2.dylib */; };
+		22C9CFD3170364FB004610FE /* libcrypto.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22BCCE2816ADD53000DFFE8D /* libcrypto.dylib */; };
+		22C9CFD4170364FB004610FE /* libcares.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80080379166C5B40004D39F5 /* libcares.dylib */; };
+		22C9CFE81703A86D004610FE /* CURLTransfer+MultiSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C9CFE71703A86D004610FE /* CURLTransfer+MultiSupport.h */; };
+		22C9CFEA1703A955004610FE /* CURLTransfer+TestingSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C9CFE91703A954004610FE /* CURLTransfer+TestingSupport.h */; };
+		22C9D0081704C627004610FE /* CURLList.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C9D0061704C627004610FE /* CURLList.h */; };
+		22C9D0091704C627004610FE /* CURLList.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D0071704C627004610FE /* CURLList.m */; };
+		22C9D00A1704C627004610FE /* CURLList.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9D0071704C627004610FE /* CURLList.m */; };
+		22DC488516CC115300211948 /* TestContent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22DC488416CC115300211948 /* TestContent.txt */; };
+		22E67F091712C598001ECE34 /* CURLHandle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* CURLHandle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22F9473E1709BF1100F0E6E1 /* StandaloneGcdTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2213AA4B1709BC92003F2557 /* StandaloneGcdTest.m */; };
+		22F9473F1709C00000F0E6E1 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 809AE1C71602C7DD001D02E1 /* libcurl.dylib */; };
+		22F947401709C00B00F0E6E1 /* libcares.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80080379166C5B40004D39F5 /* libcares.dylib */; };
+		22F947421709C11A00F0E6E1 /* StandaloneGcdWaitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F947411709C11A00F0E6E1 /* StandaloneGcdWaitTest.m */; };
+		22F947441709C59C00F0E6E1 /* StandaloneNoGcdTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F947431709C59C00F0E6E1 /* StandaloneNoGcdTest.m */; };
+		2721F6021771FB35009A07FE /* CURLHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2721F6011771FB35009A07FE /* CURLHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27229B3A14C83905007D0FF1 /* CURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 27229B3814C83905007D0FF1 /* CURLProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27229B3B14C83905007D0FF1 /* CURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 27229B3914C83905007D0FF1 /* CURLProtocol.m */; };
+		27643E18185623F600573D58 /* libssl.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 22BCCE4516ADE52700DFFE8D /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		27643E19185623F600573D58 /* libssh2.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 22BCCE2716ADD53000DFFE8D /* libssh2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		27643E1A1856243F00573D58 /* libcrypto.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 22BCCE2816ADD53000DFFE8D /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		277D77E01603804900906915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		27D77E131672BBB50091EF91 /* CK2SSHCredential.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D77E111672BBB50091EF91 /* CK2SSHCredential.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D77E161672BD9B0091EF91 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D77E151672BD9B0091EF91 /* Security.framework */; };
+		50ED7E2816EED8D000723020 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ED7E2716EED8D000723020 /* CoreServices.framework */; };
+		79B96CAC0A6360E00060AC12 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B96CA70A6360E00060AC12 /* SystemConfiguration.framework */; };
+		79B96CBF0A6360F90060AC12 /* CURLTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B96CBB0A6360F90060AC12 /* CURLTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B96CC00A6360F90060AC12 /* CURLTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B96CBC0A6360F90060AC12 /* CURLTransfer.m */; };
+		8008037C166C5BE3004D39F5 /* libcurl.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 809AE1C71602C7DD001D02E1 /* libcurl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8008037D166C5BE5004D39F5 /* libcares.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 80080379166C5B40004D39F5 /* libcares.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8008037E166C5BF4004D39F5 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 809AE1C71602C7DD001D02E1 /* libcurl.dylib */; };
+		8008037F166C5BF9004D39F5 /* libcares.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80080379166C5B40004D39F5 /* libcares.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22BCCE2B16ADD57700DFFE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = CURLHandle;
+		};
+		80080312166962A7004D39F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8008030A16696287004D39F5;
+			remoteInfo = "libcurl-i386";
+		};
+		80080314166962A7004D39F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8008030E16696292004D39F5;
+			remoteInfo = "libcurl-x86_64";
+		};
+		8008032F166A9557004D39F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80080323166A951E004D39F5;
+			remoteInfo = "libcares-clean";
+		};
+		80080331166A9557004D39F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80080327166A952A004D39F5;
+			remoteInfo = "libcares-i386";
+		};
+		80080333166A9557004D39F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8008032B166A9535004D39F5;
+			remoteInfo = "libcares-x86_64";
+		};
+		80080335166A9569004D39F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8008031F166A9514004D39F5;
+			remoteInfo = libcares;
+		};
+		809AE1C41602BF8A001D02E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809AE1BF1602BEF1001D02E1;
+			remoteInfo = "libcurl-clean";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22BCCE2F16ADD63000DFFE8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Libraries;
+			dstSubfolderSpec = 1;
+			files = (
+				22BCCE3016ADD63500DFFE8D /* libssh2.dylib in CopyFiles */,
+				22BCCE4816ADE58B00DFFE8D /* libssl.dylib in CopyFiles */,
+				22BCCE4916ADE58D00DFFE8D /* libcrypto.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C9CFBD17035A0A004610FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				22C9CFD0170364FB004610FE /* libssl.dylib in CopyFiles */,
+				22C9CFD1170364FB004610FE /* libcurl.dylib in CopyFiles */,
+				22C9CFD2170364FB004610FE /* libssh2.dylib in CopyFiles */,
+				22C9CFD3170364FB004610FE /* libcrypto.dylib in CopyFiles */,
+				22C9CFD4170364FB004610FE /* libcares.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E67F081712C583001ECE34 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22E67F091712C598001ECE34 /* CURLHandle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809AE1C91602C881001D02E1 /* Copy Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27643E1A1856243F00573D58 /* libcrypto.dylib in Copy Libraries */,
+				27643E18185623F600573D58 /* libssl.dylib in Copy Libraries */,
+				27643E19185623F600573D58 /* libssh2.dylib in Copy Libraries */,
+				8008037D166C5BE5004D39F5 /* libcares.dylib in Copy Libraries */,
+				8008037C166C5BE3004D39F5 /* libcurl.dylib in Copy Libraries */,
+			);
+			name = "Copy Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		22002EDC161097EC00464D33 /* CURLProtocolTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLProtocolTests.m; sourceTree = "<group>"; };
+		220C118D1715A1CB0086F199 /* upload-root.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "upload-root.c"; sourceTree = "<group>"; };
+		220C11A2171606310086F199 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Documentation; path = ../Documentation; sourceTree = "<group>"; };
+		220C11A5171606A90086F199 /* .appledoc.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = .appledoc.plist; path = ../.appledoc.plist; sourceTree = "<group>"; };
+		220C11A617160E250086F199 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2213AA4B1709BC92003F2557 /* StandaloneGcdTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandaloneGcdTest.m; sourceTree = "<group>"; };
+		221EAD0F160B167900E4F270 /* CURLTransferStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLTransferStack.h; sourceTree = "<group>"; };
+		221EAD10160B167900E4F270 /* CURLTransferStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLTransferStack.m; sourceTree = "<group>"; };
+		223FD092160B523700BE1C80 /* CURLHandleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CURLHandleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223FD09E160B523700BE1C80 /* CURLHandleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CURLHandleTests-Info.plist"; sourceTree = "<group>"; };
+		223FD0A0160B523700BE1C80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		223FD0A3160B523700BE1C80 /* CURLMultiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CURLMultiTests.m; sourceTree = "<group>"; };
+		223FD0A5160B523700BE1C80 /* CURLHandleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CURLHandleTests-Prefix.pch"; sourceTree = "<group>"; };
+		223FD0AB160B5F1200BE1C80 /* CURLTransferTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLTransferTests.m; sourceTree = "<group>"; };
+		2270F49F16108D44009B6F98 /* CURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLRequest.h; sourceTree = "<group>"; };
+		2270F4A016108D44009B6F98 /* CURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLRequest.m; sourceTree = "<group>"; };
+		2270F4A5161090AB009B6F98 /* CURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLResponse.h; sourceTree = "<group>"; };
+		2270F4A6161090AB009B6F98 /* CURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLResponse.m; sourceTree = "<group>"; };
+		2270F4AA16109133009B6F98 /* CURLHTTPParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLHTTPParsing.h; sourceTree = "<group>"; };
+		2270F4AB16109133009B6F98 /* CURLHTTPParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLHTTPParsing.m; sourceTree = "<group>"; };
+		22731036161305FF00D6D49E /* CURLSocketRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLSocketRegistration.h; sourceTree = "<group>"; };
+		22731037161305FF00D6D49E /* CURLSocketRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLSocketRegistration.m; sourceTree = "<group>"; };
+		22767ED7161078F1008D0848 /* NSDictionary+CURLHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CURLHandle.h"; sourceTree = "<group>"; };
+		22767ED8161078F1008D0848 /* NSDictionary+CURLHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CURLHandle.m"; sourceTree = "<group>"; };
+		2287EBE516B7CF9A0039E555 /* KMSCloseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSCloseCommand.h; sourceTree = "<group>"; };
+		2287EBE616B7CF9A0039E555 /* KMSCloseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSCloseCommand.m; sourceTree = "<group>"; };
+		2287EBE716B7CF9A0039E555 /* KMSCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSCommand.h; sourceTree = "<group>"; };
+		2287EBE816B7CF9A0039E555 /* KMSCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSCommand.m; sourceTree = "<group>"; };
+		2287EBE916B7CF9A0039E555 /* KMSPauseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSPauseCommand.h; sourceTree = "<group>"; };
+		2287EBEA16B7CF9A0039E555 /* KMSPauseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSPauseCommand.m; sourceTree = "<group>"; };
+		2287EBEB16B7CF9A0039E555 /* KMSSendDataCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSSendDataCommand.h; sourceTree = "<group>"; };
+		2287EBEC16B7CF9A0039E555 /* KMSSendDataCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSSendDataCommand.m; sourceTree = "<group>"; };
+		2287EBED16B7CF9A0039E555 /* KMSSendServerDataCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSSendServerDataCommand.h; sourceTree = "<group>"; };
+		2287EBEE16B7CF9A0039E555 /* KMSSendServerDataCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSSendServerDataCommand.m; sourceTree = "<group>"; };
+		2287EBEF16B7CF9A0039E555 /* KMSSendStringCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSSendStringCommand.h; sourceTree = "<group>"; };
+		2287EBF016B7CF9A0039E555 /* KMSSendStringCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSSendStringCommand.m; sourceTree = "<group>"; };
+		229748FA1610C1AE0042A51A /* CURLHandleBasedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLHandleBasedTest.h; sourceTree = "<group>"; };
+		229748FB1610C1AE0042A51A /* CURLHandleBasedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLHandleBasedTest.m; sourceTree = "<group>"; };
+		2298FF5D1716C6F30001EBC7 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = ../Scripts; sourceTree = "<group>"; };
+		22BCCE2716ADD53000DFFE8D /* libssh2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssh2.dylib; path = ../SFTP/libssh2.dylib; sourceTree = "<group>"; };
+		22BCCE2816ADD53000DFFE8D /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = ../SFTP/libcrypto.dylib; sourceTree = "<group>"; };
+		22BCCE4516ADE52700DFFE8D /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = ../SFTP/libssl.dylib; sourceTree = "<group>"; };
+		22BF086216AEECEC009BE5A3 /* KMSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSConnection.h; sourceTree = "<group>"; };
+		22BF086316AEECEC009BE5A3 /* KMSConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSConnection.m; sourceTree = "<group>"; };
+		22BF086416AEECEC009BE5A3 /* KMSListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSListener.h; sourceTree = "<group>"; };
+		22BF086516AEECEC009BE5A3 /* KMSListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSListener.m; sourceTree = "<group>"; };
+		22BF086616AEECEC009BE5A3 /* KMSRegExResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSRegExResponder.h; sourceTree = "<group>"; };
+		22BF086716AEECEC009BE5A3 /* KMSRegExResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSRegExResponder.m; sourceTree = "<group>"; };
+		22BF086816AEECEC009BE5A3 /* KMSResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSResponder.h; sourceTree = "<group>"; };
+		22BF086916AEECEC009BE5A3 /* KMSResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSResponder.m; sourceTree = "<group>"; };
+		22BF086A16AEECEC009BE5A3 /* KMSResponseCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSResponseCollection.h; sourceTree = "<group>"; };
+		22BF086B16AEECEC009BE5A3 /* KMSResponseCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSResponseCollection.m; sourceTree = "<group>"; };
+		22BF086C16AEECEC009BE5A3 /* KMSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSServer.h; sourceTree = "<group>"; };
+		22BF086D16AEECEC009BE5A3 /* KMSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSServer.m; sourceTree = "<group>"; };
+		22BF086E16AEECEC009BE5A3 /* KMSState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSState.h; sourceTree = "<group>"; };
+		22BF086F16AEECEC009BE5A3 /* KMSTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSTestCase.h; sourceTree = "<group>"; };
+		22BF087016AEECEC009BE5A3 /* KMSTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSTestCase.m; sourceTree = "<group>"; };
+		22BF08BF16AEEDA9009BE5A3 /* KMSTranscriptEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMSTranscriptEntry.h; sourceTree = "<group>"; };
+		22BF08C016AEEDA9009BE5A3 /* KMSTranscriptEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMSTranscriptEntry.m; sourceTree = "<group>"; };
+		22BF08C316AEEDD8009BE5A3 /* ftp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ftp.json; sourceTree = "<group>"; };
+		22BF08C416AEEDD8009BE5A3 /* http.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = http.json; sourceTree = "<group>"; };
+		22BF08E116AEEDD9009BE5A3 /* webdav.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = webdav.json; sourceTree = "<group>"; };
+		22C9CFBF17035A0A004610FE /* Standalone Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Standalone Test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C9CFCD17035A86004610FE /* multi-gcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "multi-gcd.c"; sourceTree = "<group>"; };
+		22C9CFE71703A86D004610FE /* CURLTransfer+MultiSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CURLTransfer+MultiSupport.h"; sourceTree = "<group>"; };
+		22C9CFE91703A954004610FE /* CURLTransfer+TestingSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CURLTransfer+TestingSupport.h"; sourceTree = "<group>"; };
+		22C9CFFE17049975004610FE /* multi-gcd-crashtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "multi-gcd-crashtest.c"; sourceTree = "<group>"; };
+		22C9D0011704ABBF004610FE /* multi-gcd-wait.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "multi-gcd-wait.c"; sourceTree = "<group>"; };
+		22C9D0041704B36F004610FE /* multi-gcd-crashtest-wait.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "multi-gcd-crashtest-wait.c"; sourceTree = "<group>"; };
+		22C9D0061704C627004610FE /* CURLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLList.h; sourceTree = "<group>"; };
+		22C9D0071704C627004610FE /* CURLList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLList.m; sourceTree = "<group>"; };
+		22DC488416CC115300211948 /* TestContent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestContent.txt; sourceTree = "<group>"; };
+		22EC9D981705A7E7009DDAAA /* multi-nogcd-crashtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "multi-nogcd-crashtest.c"; sourceTree = "<group>"; };
+		22F947411709C11A00F0E6E1 /* StandaloneGcdWaitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandaloneGcdWaitTest.m; sourceTree = "<group>"; };
+		22F947431709C59C00F0E6E1 /* StandaloneNoGcdTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandaloneNoGcdTest.m; sourceTree = "<group>"; };
+		2721F6011771FB35009A07FE /* CURLHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLHandle.h; sourceTree = "<group>"; };
+		27229B3814C83905007D0FF1 /* CURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLProtocol.h; sourceTree = "<group>"; };
+		27229B3914C83905007D0FF1 /* CURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CURLProtocol.m; sourceTree = "<group>"; };
+		27D77E111672BBB50091EF91 /* CK2SSHCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CK2SSHCredential.h; path = ../SFTP/CK2SSHCredential.h; sourceTree = "<group>"; };
+		27D77E121672BBB50091EF91 /* CK2SSHCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CK2SSHCredential.m; path = ../SFTP/CK2SSHCredential.m; sourceTree = "<group>"; };
+		27D77E151672BD9B0091EF91 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		32DBCF5E0370ADEE00C91783 /* CURLHandle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLHandle_Prefix.pch; sourceTree = "<group>"; };
+		50ED7E2716EED8D000723020 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		79B96CA70A6360E00060AC12 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		79B96CBB0A6360F90060AC12 /* CURLTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CURLTransfer.h; sourceTree = "<group>"; };
+		79B96CBC0A6360F90060AC12 /* CURLTransfer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CURLTransfer.m; sourceTree = "<group>"; };
+		80080316166962C7004D39F5 /* libcurl-README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libcurl-README.txt"; sourceTree = "<group>"; };
+		8008031816696329004D39F5 /* curl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = curl; path = ../curl; sourceTree = "<group>"; };
+		8008031D166A93C4004D39F5 /* libcares-README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libcares-README.txt"; sourceTree = "<group>"; };
+		8008031E166A93DD004D39F5 /* c-ares */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "c-ares"; path = "../c-ares"; sourceTree = "<group>"; };
+		80080379166C5B40004D39F5 /* libcares.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcares.dylib; path = built/libcares.dylib; sourceTree = "<group>"; };
+		809AE1C71602C7DD001D02E1 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = built/libcurl.dylib; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* CURLHandle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CURLHandle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		223FD08E160B523700BE1C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BCCE3C16ADD73400DFFE8D /* (null) in Frameworks */,
+				22BCCE3316ADD66900DFFE8D /* Security.framework in Frameworks */,
+				226B358D16ADAA6D004780A7 /* CURLHandle.framework in Frameworks */,
+				22F9473F1709C00000F0E6E1 /* libcurl.dylib in Frameworks */,
+				22F947401709C00B00F0E6E1 /* libcares.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C9CFBC17035A0A004610FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9CFCF170364B8004610FE /* libcurl.dylib in Frameworks */,
+				221F8B7B17255229004E7B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8008037E166C5BF4004D39F5 /* libcurl.dylib in Frameworks */,
+				8008037F166C5BF9004D39F5 /* libcares.dylib in Frameworks */,
+				277D77E01603804900906915 /* Foundation.framework in Frameworks */,
+				50ED7E2816EED8D000723020 /* CoreServices.framework in Frameworks */,
+				79B96CAC0A6360E00060AC12 /* SystemConfiguration.framework in Frameworks */,
+				27D77E161672BD9B0091EF91 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* CURLHandle.framework */,
+				223FD092160B523700BE1C80 /* CURLHandleTests.xctest */,
+				22C9CFBF17035A0A004610FE /* Standalone Test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CURLHandle */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Source */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				223FD09C160B523700BE1C80 /* Tests */,
+				22BF08FA16AF09B2009BE5A3 /* Modules */,
+				0867D69AFE84028FC02AAC07 /* Libraries & Frameworks */,
+				220C11A41716067E0086F199 /* Documentation */,
+				2298FF5D1716C6F30001EBC7 /* Scripts */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = CURLHandle;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Libraries & Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27643E1B185626C400573D58 /* Libraries */,
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+			);
+			name = "Libraries & Frameworks";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2298FF5B1716C3FF0001EBC7 /* Public */,
+				2298FF5C1716C40D0001EBC7 /* Private */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79B96CA70A6360E00060AC12 /* SystemConfiguration.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				27D77E151672BD9B0091EF91 /* Security.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		220C11A41716067E0086F199 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				220C11A617160E250086F199 /* README.md */,
+				220C11A5171606A90086F199 /* .appledoc.plist */,
+				220C11A2171606310086F199 /* Documentation */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		223FD09C160B523700BE1C80 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				229748FA1610C1AE0042A51A /* CURLHandleBasedTest.h */,
+				229748FB1610C1AE0042A51A /* CURLHandleBasedTest.m */,
+				223FD0AB160B5F1200BE1C80 /* CURLTransferTests.m */,
+				22002EDC161097EC00464D33 /* CURLProtocolTests.m */,
+				223FD0A3160B523700BE1C80 /* CURLMultiTests.m */,
+				2213AA4B1709BC92003F2557 /* StandaloneGcdTest.m */,
+				22F947431709C59C00F0E6E1 /* StandaloneNoGcdTest.m */,
+				22F947411709C11A00F0E6E1 /* StandaloneGcdWaitTest.m */,
+				22C9CFC317035A0B004610FE /* Standalone Tests */,
+				22BF085916AEECEC009BE5A3 /* MockServer */,
+				223FD09D160B523700BE1C80 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		223FD09D160B523700BE1C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22DC488416CC115300211948 /* TestContent.txt */,
+				223FD09E160B523700BE1C80 /* CURLHandleTests-Info.plist */,
+				223FD09F160B523700BE1C80 /* InfoPlist.strings */,
+				223FD0A5160B523700BE1C80 /* CURLHandleTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2298FF5B1716C3FF0001EBC7 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				2721F6011771FB35009A07FE /* CURLHandle.h */,
+				27D77E111672BBB50091EF91 /* CK2SSHCredential.h */,
+				27D77E121672BBB50091EF91 /* CK2SSHCredential.m */,
+				221EAD0F160B167900E4F270 /* CURLTransferStack.h */,
+				221EAD10160B167900E4F270 /* CURLTransferStack.m */,
+				79B96CBB0A6360F90060AC12 /* CURLTransfer.h */,
+				79B96CBC0A6360F90060AC12 /* CURLTransfer.m */,
+				27229B3814C83905007D0FF1 /* CURLProtocol.h */,
+				27229B3914C83905007D0FF1 /* CURLProtocol.m */,
+				2270F49F16108D44009B6F98 /* CURLRequest.h */,
+				2270F4A016108D44009B6F98 /* CURLRequest.m */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		2298FF5C1716C40D0001EBC7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* CURLHandle_Prefix.pch */,
+				22C9CFE71703A86D004610FE /* CURLTransfer+MultiSupport.h */,
+				22C9CFE91703A954004610FE /* CURLTransfer+TestingSupport.h */,
+				2270F4AA16109133009B6F98 /* CURLHTTPParsing.h */,
+				2270F4AB16109133009B6F98 /* CURLHTTPParsing.m */,
+				22C9D0061704C627004610FE /* CURLList.h */,
+				22C9D0071704C627004610FE /* CURLList.m */,
+				2270F4A5161090AB009B6F98 /* CURLResponse.h */,
+				2270F4A6161090AB009B6F98 /* CURLResponse.m */,
+				22731036161305FF00D6D49E /* CURLSocketRegistration.h */,
+				22731037161305FF00D6D49E /* CURLSocketRegistration.m */,
+				22767ED7161078F1008D0848 /* NSDictionary+CURLHandle.h */,
+				22767ED8161078F1008D0848 /* NSDictionary+CURLHandle.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		22BF085916AEECEC009BE5A3 /* MockServer */ = {
+			isa = PBXGroup;
+			children = (
+				2287EBE516B7CF9A0039E555 /* KMSCloseCommand.h */,
+				2287EBE616B7CF9A0039E555 /* KMSCloseCommand.m */,
+				2287EBE716B7CF9A0039E555 /* KMSCommand.h */,
+				2287EBE816B7CF9A0039E555 /* KMSCommand.m */,
+				22BF086216AEECEC009BE5A3 /* KMSConnection.h */,
+				22BF086316AEECEC009BE5A3 /* KMSConnection.m */,
+				22BF086416AEECEC009BE5A3 /* KMSListener.h */,
+				22BF086516AEECEC009BE5A3 /* KMSListener.m */,
+				2287EBE916B7CF9A0039E555 /* KMSPauseCommand.h */,
+				2287EBEA16B7CF9A0039E555 /* KMSPauseCommand.m */,
+				22BF086616AEECEC009BE5A3 /* KMSRegExResponder.h */,
+				22BF086716AEECEC009BE5A3 /* KMSRegExResponder.m */,
+				22BF086816AEECEC009BE5A3 /* KMSResponder.h */,
+				22BF086916AEECEC009BE5A3 /* KMSResponder.m */,
+				22BF086A16AEECEC009BE5A3 /* KMSResponseCollection.h */,
+				22BF086B16AEECEC009BE5A3 /* KMSResponseCollection.m */,
+				2287EBEB16B7CF9A0039E555 /* KMSSendDataCommand.h */,
+				2287EBEC16B7CF9A0039E555 /* KMSSendDataCommand.m */,
+				2287EBED16B7CF9A0039E555 /* KMSSendServerDataCommand.h */,
+				2287EBEE16B7CF9A0039E555 /* KMSSendServerDataCommand.m */,
+				2287EBEF16B7CF9A0039E555 /* KMSSendStringCommand.h */,
+				2287EBF016B7CF9A0039E555 /* KMSSendStringCommand.m */,
+				22BF086C16AEECEC009BE5A3 /* KMSServer.h */,
+				22BF086D16AEECEC009BE5A3 /* KMSServer.m */,
+				22BF086E16AEECEC009BE5A3 /* KMSState.h */,
+				22BF086F16AEECEC009BE5A3 /* KMSTestCase.h */,
+				22BF087016AEECEC009BE5A3 /* KMSTestCase.m */,
+				22BF08BF16AEEDA9009BE5A3 /* KMSTranscriptEntry.h */,
+				22BF08C016AEEDA9009BE5A3 /* KMSTranscriptEntry.m */,
+				22BF08C216AEEDD8009BE5A3 /* UnitTests */,
+			);
+			path = MockServer;
+			sourceTree = "<group>";
+		};
+		22BF08C216AEEDD8009BE5A3 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				22BF08C316AEEDD8009BE5A3 /* ftp.json */,
+				22BF08C416AEEDD8009BE5A3 /* http.json */,
+				22BF08E116AEEDD9009BE5A3 /* webdav.json */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		22BF08FA16AF09B2009BE5A3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8008031D166A93C4004D39F5 /* libcares-README.txt */,
+				8008031E166A93DD004D39F5 /* c-ares */,
+				80080316166962C7004D39F5 /* libcurl-README.txt */,
+				8008031816696329004D39F5 /* curl */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		22C9CFC317035A0B004610FE /* Standalone Tests */ = {
+			isa = PBXGroup;
+			children = (
+				220C118D1715A1CB0086F199 /* upload-root.c */,
+				22C9CFCD17035A86004610FE /* multi-gcd.c */,
+				22C9D0011704ABBF004610FE /* multi-gcd-wait.c */,
+				22C9CFFE17049975004610FE /* multi-gcd-crashtest.c */,
+				22C9D0041704B36F004610FE /* multi-gcd-crashtest-wait.c */,
+				22EC9D981705A7E7009DDAAA /* multi-nogcd-crashtest.c */,
+			);
+			name = "Standalone Tests";
+			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		27643E1B185626C400573D58 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				22BCCE4516ADE52700DFFE8D /* libssl.dylib */,
+				809AE1C71602C7DD001D02E1 /* libcurl.dylib */,
+				22BCCE2716ADD53000DFFE8D /* libssh2.dylib */,
+				22BCCE2816ADD53000DFFE8D /* libcrypto.dylib */,
+				80080379166C5B40004D39F5 /* libcares.dylib */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B96CBF0A6360F90060AC12 /* CURLTransfer.h in Headers */,
+				27229B3A14C83905007D0FF1 /* CURLProtocol.h in Headers */,
+				221EAD11160B167900E4F270 /* CURLTransferStack.h in Headers */,
+				22767ED9161078F2008D0848 /* NSDictionary+CURLHandle.h in Headers */,
+				2270F4A116108D44009B6F98 /* CURLRequest.h in Headers */,
+				2270F4A7161090AB009B6F98 /* CURLResponse.h in Headers */,
+				2270F4AC16109133009B6F98 /* CURLHTTPParsing.h in Headers */,
+				2721F6021771FB35009A07FE /* CURLHandle.h in Headers */,
+				22731038161305FF00D6D49E /* CURLSocketRegistration.h in Headers */,
+				27D77E131672BBB50091EF91 /* CK2SSHCredential.h in Headers */,
+				22C9CFE81703A86D004610FE /* CURLTransfer+MultiSupport.h in Headers */,
+				22C9CFEA1703A955004610FE /* CURLTransfer+TestingSupport.h in Headers */,
+				22C9D0081704C627004610FE /* CURLList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		223FD091160B523700BE1C80 /* CURLHandleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223FD0A6160B523700BE1C80 /* Build configuration list for PBXNativeTarget "CURLHandleTests" */;
+			buildPhases = (
+				223FD08D160B523700BE1C80 /* Sources */,
+				223FD08E160B523700BE1C80 /* Frameworks */,
+				223FD08F160B523700BE1C80 /* Resources */,
+				22BCCE2F16ADD63000DFFE8D /* CopyFiles */,
+				22E67F081712C583001ECE34 /* CopyFiles */,
+				223FD090160B523700BE1C80 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BCCE2C16ADD57700DFFE8D /* PBXTargetDependency */,
+			);
+			name = CURLHandleTests;
+			productName = CURLHandleTests;
+			productReference = 223FD092160B523700BE1C80 /* CURLHandleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C9CFBE17035A0A004610FE /* Standalone Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C9CFCC17035A0B004610FE /* Build configuration list for PBXNativeTarget "Standalone Test" */;
+			buildPhases = (
+				22C9CFBB17035A0A004610FE /* Sources */,
+				22C9CFBC17035A0A004610FE /* Frameworks */,
+				22C9CFBD17035A0A004610FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Standalone Test";
+			productName = crashtest;
+			productReference = 22C9CFBF17035A0A004610FE /* Standalone Test */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DC2EF4F0486A6940098B216 /* CURLHandle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CURLHandle" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+				809AE1C91602C881001D02E1 /* Copy Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CURLHandle;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = CURLHandle;
+			productReference = 8DC2EF5B0486A6940098B216 /* CURLHandle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0600;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Karelia Software";
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CURLHandle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* CURLHandle */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* CURLHandle */,
+				223FD091160B523700BE1C80 /* CURLHandleTests */,
+				809ADE7816029C38001D02E1 /* libcurl */,
+				227FCE591741462200C3029D /* libcurl-tests-x86_64 */,
+				809AE1BF1602BEF1001D02E1 /* libcurl-clean */,
+				8008030A16696287004D39F5 /* libcurl-i386 */,
+				8008030E16696292004D39F5 /* libcurl-x86_64 */,
+				8008031F166A9514004D39F5 /* libcares */,
+				80080323166A951E004D39F5 /* libcares-clean */,
+				80080327166A952A004D39F5 /* libcares-i386 */,
+				8008032B166A9535004D39F5 /* libcares-x86_64 */,
+				22C9CFBE17035A0A004610FE /* Standalone Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		223FD08F160B523700BE1C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223FD0A1160B523700BE1C80 /* InfoPlist.strings in Resources */,
+				22BF08E216AEEDD9009BE5A3 /* ftp.json in Resources */,
+				22BF08E316AEEDD9009BE5A3 /* http.json in Resources */,
+				22BF08F316AEEDD9009BE5A3 /* webdav.json in Resources */,
+				22DC488516CC115300211948 /* TestContent.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220C11A3171606310086F199 /* Documentation in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		223FD090160B523700BE1C80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			showEnvVarsInLog = 0;
+		};
+		227FCE621741462200C3029D /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "echo Copying libraries\ncp \"${OBJROOT}/c-ares-x86_64/lib/libcares.dylib\" \"${OBJROOT}/curl-x86_64/lib/.libs\"\ncp \"${SRCROOT}/../SFTP/libcrypto.dylib\" \"${OBJROOT}/curl-x86_64/lib/.libs\"\ncp \"${SRCROOT}/../SFTP/libssh2.dylib\" \"${OBJROOT}/curl-x86_64/lib/.libs\"\ncp \"${SRCROOT}/../SFTP/libssl.dylib\" \"${OBJROOT}/curl-x86_64/lib/.libs\"\n\necho Running tests\ncp ../Scripts/setup \"${OBJROOT}/curl-x86_64\"\ncd \"${OBJROOT}/curl-x86_64\"\nmake test\necho Finished tests\n";
+			showEnvVarsInLog = 0;
+		};
+		800803191669665D004D39F5 /* Run Script - Configure + make */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Configure + make";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "../Scripts/curl-config.sh \"i386\"\n../Scripts/curl-make.sh \"i386\"\n../Scripts/rename-install.sh \"i386\" \"curl\" \"lib/.libs\"";
+			showEnvVarsInLog = 0;
+		};
+		8008031B16696675004D39F5 /* Run Script - Configure + make */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Configure + make";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "../Scripts/curl-config.sh \"x86_64\"\n../Scripts/curl-make.sh \"x86_64\"\n../Scripts/rename-install.sh \"x86_64\" \"curl\" \"lib/.libs\"";
+			showEnvVarsInLog = 0;
+		};
+		80080337166A9651004D39F5 /* Run Script - lipo multi-arch dylib */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - lipo multi-arch dylib";
+			outputPaths = (
+				"${SRCROOT}/built/libcares.dylib",
+				"${SRCROOT}/built/libcares.dylib.dSYM",
+				"${SRCROOT}/built/include/cares-i386/ares_build.h",
+				"${SRCROOT}/built/include/cares-x86_64/ares_build.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "../Scripts/c-ares-combine.sh";
+			showEnvVarsInLog = 0;
+		};
+		80080338166A9661004D39F5 /* Run Script - remove previous product dylibs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - remove previous product dylibs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "../Scripts/c-ares-clean.sh";
+			showEnvVarsInLog = 0;
+		};
+		80080339166A966D004D39F5 /* Run Script - Configure + make */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Configure + make";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "../Scripts/c-ares-config.sh \"i386\"\n../Scripts/c-ares-make.sh \"i386\"\n../Scripts/rename-install.sh \"i386\" \"cares\" \".libs\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8008033B166A9682004D39F5 /* Run Script - Configure + make */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Configure + make";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "../Scripts/c-ares-config.sh \"x86_64\"\n../Scripts/c-ares-make.sh \"x86_64\"\n../Scripts/rename-install.sh \"x86_64\" \"cares\" \".libs\"\n";
+			showEnvVarsInLog = 0;
+		};
+		809AE1BC1602BE6C001D02E1 /* Run Script - lipo multi-arch dylib */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - lipo multi-arch dylib";
+			outputPaths = (
+				"${SRCROOT}/built/libcurl.dylib",
+				"${SRCROOT}/built/libcurl.dylib.dSYM",
+				"${SRCROOT}/built/include/curl-i386",
+				"${SRCROOT}/built/include/curl-x86_64",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "../Scripts/curl-combine.sh\n";
+			showEnvVarsInLog = 0;
+		};
+		809AE1C31602BEF5001D02E1 /* Run Script - remove previous product dylibs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - remove previous product dylibs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "../Scripts/curl-clean.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223FD08D160B523700BE1C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223FD0A4160B523700BE1C80 /* CURLMultiTests.m in Sources */,
+				223FD0AC160B5F1200BE1C80 /* CURLTransferTests.m in Sources */,
+				22002EDD161097EC00464D33 /* CURLProtocolTests.m in Sources */,
+				229748FC1610C1AE0042A51A /* CURLHandleBasedTest.m in Sources */,
+				22BF089C16AEECEC009BE5A3 /* KMSConnection.m in Sources */,
+				22BF089D16AEECEC009BE5A3 /* KMSListener.m in Sources */,
+				22BF089E16AEECEC009BE5A3 /* KMSRegExResponder.m in Sources */,
+				22BF089F16AEECEC009BE5A3 /* KMSResponder.m in Sources */,
+				22BF08A016AEECEC009BE5A3 /* KMSResponseCollection.m in Sources */,
+				22BF08A116AEECEC009BE5A3 /* KMSServer.m in Sources */,
+				22BF08A216AEECEC009BE5A3 /* KMSTestCase.m in Sources */,
+				22BF08C116AEEDA9009BE5A3 /* KMSTranscriptEntry.m in Sources */,
+				2287EBF116B7CF9A0039E555 /* KMSCloseCommand.m in Sources */,
+				2287EBF216B7CF9A0039E555 /* KMSCommand.m in Sources */,
+				2287EBF316B7CF9A0039E555 /* KMSPauseCommand.m in Sources */,
+				2287EBF416B7CF9A0039E555 /* KMSSendDataCommand.m in Sources */,
+				2287EBF516B7CF9A0039E555 /* KMSSendServerDataCommand.m in Sources */,
+				2287EBF616B7CF9A0039E555 /* KMSSendStringCommand.m in Sources */,
+				22F9473E1709BF1100F0E6E1 /* StandaloneGcdTest.m in Sources */,
+				22F947421709C11A00F0E6E1 /* StandaloneGcdWaitTest.m in Sources */,
+				22F947441709C59C00F0E6E1 /* StandaloneNoGcdTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C9CFBB17035A0A004610FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C9D00A1704C627004610FE /* CURLList.m in Sources */,
+				220C118E1715A1CB0086F199 /* upload-root.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B96CC00A6360F90060AC12 /* CURLTransfer.m in Sources */,
+				27229B3B14C83905007D0FF1 /* CURLProtocol.m in Sources */,
+				221EAD12160B167900E4F270 /* CURLTransferStack.m in Sources */,
+				22767EDA161078F2008D0848 /* NSDictionary+CURLHandle.m in Sources */,
+				2270F4A8161090AB009B6F98 /* CURLResponse.m in Sources */,
+				2270F4AD16109133009B6F98 /* CURLHTTPParsing.m in Sources */,
+				22731039161305FF00D6D49E /* CURLSocketRegistration.m in Sources */,
+				22BF085516AEAA76009BE5A3 /* CURLRequest.m in Sources */,
+				22BF085616AEAA7A009BE5A3 /* CK2SSHCredential.m in Sources */,
+				22C9D0091704C627004610FE /* CURLList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22BCCE2C16ADD57700DFFE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* CURLHandle */;
+			targetProxy = 22BCCE2B16ADD57700DFFE8D /* PBXContainerItemProxy */;
+		};
+		80080313166962A7004D39F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8008030A16696287004D39F5 /* libcurl-i386 */;
+			targetProxy = 80080312166962A7004D39F5 /* PBXContainerItemProxy */;
+		};
+		80080315166962A7004D39F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8008030E16696292004D39F5 /* libcurl-x86_64 */;
+			targetProxy = 80080314166962A7004D39F5 /* PBXContainerItemProxy */;
+		};
+		80080330166A9557004D39F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80080323166A951E004D39F5 /* libcares-clean */;
+			targetProxy = 8008032F166A9557004D39F5 /* PBXContainerItemProxy */;
+		};
+		80080332166A9557004D39F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80080327166A952A004D39F5 /* libcares-i386 */;
+			targetProxy = 80080331166A9557004D39F5 /* PBXContainerItemProxy */;
+		};
+		80080334166A9557004D39F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8008032B166A9535004D39F5 /* libcares-x86_64 */;
+			targetProxy = 80080333166A9557004D39F5 /* PBXContainerItemProxy */;
+		};
+		80080336166A9569004D39F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8008031F166A9514004D39F5 /* libcares */;
+			targetProxy = 80080335166A9569004D39F5 /* PBXContainerItemProxy */;
+		};
+		809AE1C51602BF8A001D02E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 809AE1BF1602BEF1001D02E1 /* libcurl-clean */;
+			targetProxy = 809AE1C41602BF8A001D02E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		223FD09F160B523700BE1C80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223FD0A0160B523700BE1C80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = CURLHandle_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/built\"",
+					"\"$(SRCROOT)/../SFTP\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karelia.CURLHandle;
+				PRODUCT_NAME = CURLHandle;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = CURLHandle_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/built\"",
+					"\"$(SRCROOT)/../SFTP\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karelia.CURLHandle;
+				PRODUCT_NAME = CURLHandle;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wdocumentation";
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wdocumentation";
+			};
+			name = Release;
+		};
+		223FD0A7160B523700BE1C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "Tests/CURLHandleTests-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/built/include/curl-x86_64\"";
+				INFOPLIST_FILE = "Tests/CURLHandleTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks @loader_path/../Frameworks @loader_path/../Frameworks/CURLHandle.framework/Versions/A/Frameworks @loader_path/../Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/built\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karelia.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		223FD0A8160B523700BE1C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "Tests/CURLHandleTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/built/include/curl-x86_64\"";
+				INFOPLIST_FILE = "Tests/CURLHandleTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks @loader_path/../Frameworks @loader_path/../Frameworks/CURLHandle.framework/Versions/A/Frameworks @loader_path/../Libraries";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/built\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karelia.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		227FCE641741462200C3029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "libcurl copy";
+			};
+			name = Debug;
+		};
+		227FCE651741462200C3029D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "libcurl copy";
+			};
+			name = Release;
+		};
+		22C9CFCA17035A0B004610FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "build/curl-x86_64/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22C9CFCB17035A0B004610FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = "build/curl-x86_64/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8008030C16696287004D39F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		8008030D16696287004D39F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		8008031016696292004D39F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		8008031116696292004D39F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		80080321166A9514004D39F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80080322166A9514004D39F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80080325166A951E004D39F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80080326166A951E004D39F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80080329166A952A004D39F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		8008032A166A952A004D39F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		8008032D166A9535004D39F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		8008032E166A9535004D39F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		809ADE7A16029C38001D02E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		809ADE7B16029C38001D02E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		809AE1C11602BEF1001D02E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		809AE1C21602BEF1001D02E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CURLHandle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CURLHandle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223FD0A6160B523700BE1C80 /* Build configuration list for PBXNativeTarget "CURLHandleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223FD0A7160B523700BE1C80 /* Debug */,
+				223FD0A8160B523700BE1C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227FCE631741462200C3029D /* Build configuration list for PBXAggregateTarget "libcurl-tests-x86_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227FCE641741462200C3029D /* Debug */,
+				227FCE651741462200C3029D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C9CFCC17035A0B004610FE /* Build configuration list for PBXNativeTarget "Standalone Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C9CFCA17035A0B004610FE /* Debug */,
+				22C9CFCB17035A0B004610FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8008030B16696287004D39F5 /* Build configuration list for PBXAggregateTarget "libcurl-i386" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8008030C16696287004D39F5 /* Debug */,
+				8008030D16696287004D39F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8008030F16696292004D39F5 /* Build configuration list for PBXAggregateTarget "libcurl-x86_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8008031016696292004D39F5 /* Debug */,
+				8008031116696292004D39F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80080320166A9514004D39F5 /* Build configuration list for PBXAggregateTarget "libcares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80080321166A9514004D39F5 /* Debug */,
+				80080322166A9514004D39F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80080324166A951E004D39F5 /* Build configuration list for PBXAggregateTarget "libcares-clean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80080325166A951E004D39F5 /* Debug */,
+				80080326166A951E004D39F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80080328166A952A004D39F5 /* Build configuration list for PBXAggregateTarget "libcares-i386" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80080329166A952A004D39F5 /* Debug */,
+				8008032A166A952A004D39F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8008032C166A9535004D39F5 /* Build configuration list for PBXAggregateTarget "libcares-x86_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8008032D166A9535004D39F5 /* Debug */,
+				8008032E166A9535004D39F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809ADE7916029C38001D02E1 /* Build configuration list for PBXAggregateTarget "libcurl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809ADE7A16029C38001D02E1 /* Debug */,
+				809ADE7B16029C38001D02E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809AE1C01602BEF1001D02E1 /* Build configuration list for PBXAggregateTarget "libcurl-clean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809AE1C11602BEF1001D02E1 /* Debug */,
+				809AE1C21602BEF1001D02E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,88 @@
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\nどうしますか?";
+
+/* ConnectionOpenPanel */
+"An unknown error occurred." = "不明なエラーが発生しました。";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "アップロードを中断してもよろしいですか?";
+
+/* authorise */
+"Authorize" = "認証";
+
+/* authorise */
+"Authorize Connection?" = "接続を承認しますか?";
+
+/* config */
+"Bad Configuration" = "設定が悪い";
+
+/* error */
+"Bad Droplet" = "ドロップレットが悪い";
+
+/* filesize: bytes */
+"bytes" = "バイト";
+
+/* authorise */
+"Cancel" = "キャンセル";
+
+/* connected message */
+"Connected to %@" = "%@ に接続";
+
+/* connection string */
+"Connecting to %@" = "%@ に接続中";
+
+/* close window */
+"Continue Upload" = "アップロードを継続";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "指定した設定ファイルが見つかりませんでした\n %@";
+
+/* status */
+"Disconnected" = "切断";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* filesize: kilobytes */
+"KB" = "KB";
+
+/* FTP download error */
+"Local File already exists" = "このローカルファイルはすでに存在します";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* config */
+"No configuration file specified" = "設定ファイルが指定されていません";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "この接続タイプは有効ではありません";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* ConnectionOpenPanel */
+"Please check your settings." = "設定を確認して下さい。";
+
+/* config
+   error */
+
+"Quit" = "終了";
+
+/* close window */
+"Stop Upload" = "アップロードを停止";
+
+/* close window */
+"Stop Upload?" = "アップロードを停止しますか?";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "ドロップレットを作成したときのアプリケーションがありません。そのアプリケーションを再インストールする必要があります。";
+
+/* status */
+"Uploading %@" = "%@ をアップロード中";

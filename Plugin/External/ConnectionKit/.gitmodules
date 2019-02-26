@@ -1,0 +1,6 @@
+[submodule "DAVKit"]
+	path = DAVKit
+	url = https://github.com/karelia/DAVKit.git
+[submodule "CurlHandle"]
+	path = CurlHandle
+	url = https://github.com/karelia/CurlHandle.git

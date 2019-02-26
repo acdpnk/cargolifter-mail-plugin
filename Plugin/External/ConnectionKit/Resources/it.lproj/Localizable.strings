@@ -1,0 +1,88 @@
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\nChe cosa ti piacerebbe fare?";
+
+/* ConnectionOpenPanel */
+"An unknown error occurred." = "Si è verificato un errore sconosciuto.";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "Sei sicuro di voler interrompere il caricamento?";
+
+/* authorise */
+"Authorize" = "Autorizza";
+
+/* authorise */
+"Authorize Connection?" = "Autorizza connessione?";
+
+/* config */
+"Bad Configuration" = "Configurazione errata";
+
+/* error */
+"Bad Droplet" = "Droplet errato";
+
+/* filesize: bytes */
+"bytes" = "byte";
+
+/* authorise */
+"Cancel" = "Annulla";
+
+/* connected message */
+"Connected to %@" = "Connesso a %@";
+
+/* connection string */
+"Connecting to %@" = "Connessione a %@";
+
+/* close window */
+"Continue Upload" = "Continua caricamento";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "Impossibile trovare il file di configurazione specificato\n %@";
+
+/* status */
+"Disconnected" = "Disconnesso";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* filesize: kilobytes */
+"KB" = "KB";
+
+/* FTP download error */
+"Local File already exists" = "Il file locale esiste già";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* config */
+"No configuration file specified" = "Non è stato specificato nessun file di configurazione";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "Nessuna connessione è disponibile per il tipo di connessione richiesto";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* ConnectionOpenPanel */
+"Please check your settings." = "Verifica le tue impostazioni.";
+
+/* config
+   error */
+
+"Quit" = "Esci";
+
+/* close window */
+"Stop Upload" = "Interrompi caricamento";
+
+/* close window */
+"Stop Upload?" = "Interrompere caricamento?";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "Il droplet ha perduto la connessione con l'applicazione che l'ha creato. Dovrai reinstallare l'applicazione originale.";
+
+/* status */
+"Uploading %@" = "Sto caricando %@";

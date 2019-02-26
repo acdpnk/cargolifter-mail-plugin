@@ -1,0 +1,88 @@
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\nWas möchten Sie tun?";
+
+/* ConnectionOpenPanel */
+"An unknown error occurred." = "Ein unbekannter Fehler ist aufgetreten. ";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "Wollen Sie die Übertragung wirklich stoppen?";
+
+/* authorise */
+"Authorize" = "Autorisieren";
+
+/* authorise */
+"Authorize Connection?" = "Verbindung autorisieren?";
+
+/* config */
+"Bad Configuration" = "Falsche Konfiguration";
+
+/* error */
+"Bad Droplet" = "Falsches Droplet";
+
+/* filesize: bytes */
+"bytes" = "Byte";
+
+/* authorise */
+"Cancel" = "Abbrechen";
+
+/* connected message */
+"Connected to %@" = "Verbunden mit %@";
+
+/* connection string */
+"Connecting to %@" = "Mit %@ verbinden";
+
+/* close window */
+"Continue Upload" = "Übertragung fortsetzen";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "Konnte angegebene Konfigurationsdatei nicht finden\n %@";
+
+/* status */
+"Disconnected" = "Getrennt";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* filesize: kilobytes */
+"KB" = "KB";
+
+/* FTP download error */
+"Local File already exists" = "Lokale Datei existiert bereits";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* config */
+"No configuration file specified" = "Keine Konfigurationsdatei angegeben";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "Keine verfügbare Verbindung für gewählte Verbindungsart";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* ConnectionOpenPanel */
+"Please check your settings." = "Bitte prüfen Sie Ihre Einstellungen.";
+
+/* config
+   error */
+
+"Quit" = "Beenden";
+
+/* close window */
+"Stop Upload" = "Übertragung stoppen";
+
+/* close window */
+"Stop Upload?" = "Übertragung stoppen?";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "Diesem Droplet fehlt das Originalprogramm mit welchem es erstellt wurden. Bitte reinstallieren Sie das Originalprogramm.";
+
+/* status */
+"Uploading %@" = "Hochladen von %@";

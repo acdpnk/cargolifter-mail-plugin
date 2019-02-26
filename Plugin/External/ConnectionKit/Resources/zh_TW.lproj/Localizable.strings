@@ -1,0 +1,371 @@
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\n您打算怎麼做？";
+
+/* ConnectionOpenPanel */
+"A Connection Error Occurred" = "發生連線錯誤";
+
+/* FTP Abort */
+"Action Aborted. Local Error" = "放棄動作。本機發生錯誤";
+
+/* FTP no data stream types available */
+"All data connection modes have been exhausted. Check with the server administrator." = "已嘗試所有資料連線模式。請與伺服器管理員確認。";
+
+/* MobileMe Create Directory Error
+   WebDAV Create Directory Error */
+
+"An intermediate directory does not exist and needs to be created before the current directory" = "中間目錄並不存在，您必須在目前目錄前製作該目錄。";
+
+/* MobileMe Create Directory Error
+   WebDAV Create Directory Error */
+
+"An unknown error occurred" = "發生未知的錯誤";
+
+/* multiple connection joiner */
+"and" = "和";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "您是否確定要停止上傳？";
+
+/* authorise */
+"Authorize" = "認證";
+
+/* authorise */
+"Authorize Connection?" = "認證連線？";
+
+/* connection type */
+"auto" = "自動";
+
+/* config */
+"Bad Configuration" = "設定不正確";
+
+/* error */
+"Bad Droplet" = "Droplet 不正確";
+
+/* context menu
+   tree controller action gear */
+
+"Browse Packages" = "瀏覽套件";
+
+/* filesize: bytes */
+"bytes" = "bytes";
+
+/* authorise */
+"Cancel" = "取消";
+
+/* FTP upload error */
+"Cannot Upload File. Storage quota on server exceeded" = "無法上傳檔案。已超過伺服器的儲存空間";
+
+/* connected message
+   transfer controller */
+
+"Connected to %@" = "已連接至 %@";
+
+/* file transcript */
+"Connected to File System" = "已連線至檔案系統";
+
+/* connection string */
+"Connecting to %@" = "正在連接至 %@";
+
+/* file transcript */
+"Connecting…" = "連線中⋯";
+
+/* close window */
+"Continue Upload" = "繼續上傳";
+
+/* file transcript */
+"Copying %@ to %@" = "正在拷貝 %1$@ 至 %2$@";
+
+/* FileConnection set permissions error */
+"Could not change file permissions" = "無法更改檔案權限";
+
+/* FileConnection create directory error */
+"Could not create directory" = "無法製作目錄";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "找不到指定的設定檔\n %@";
+
+/* file transcript */
+"Create Directory %@ (%lo)" = "製作目錄 %1$@ (%2$lo)";
+
+/* FTP Create directory error
+   Create directory operation failed */
+
+"Create directory operation failed" = "製作目錄作業失敗";
+
+/* Failed to open a data stream connection */
+"Data Stream Timed Out" = "資料流逾時";
+
+/* outline view column header name
+   outline view column context menu item */
+
+"Date Modified" = "修改日期";
+
+/* file transcript */
+"Deleting File %@" = "正在刪除檔案 %@";
+
+/* status */
+"Disconnected" = "已中斷連線";
+
+/* transfer controller */
+"Disconnected from %@" = "已從 %@ 中斷連線";
+
+/* unknown UTI name */
+"Document" = "文件";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* Directory Parsing Error */
+"Error parsing directory listing" = "解析目錄列表時發生錯誤";
+
+/* FTP no data streams available */
+"Exhausted all connection types to server. Please contact server administrator" = "已嘗試與此伺服器的所有連線類型。請與伺服器管理員聯繫。";
+
+/* Failed to change to directory
+   Bad FTP command */
+
+"Failed to change to directory" = "無法更改目錄";
+
+/* WebDAV Directory Deletion Error
+   couldn't delete the file
+   MobileMe Directory Deletion Error */
+
+
+"Failed to delete directory" = "無法刪除目錄";
+
+/* error for deleting a directory */
+"Failed to delete directory: %@" = "無法刪除目錄：%@";
+
+/* WebDAV File Deletion Error
+   couldn't delete the file
+   MobileMe file deletion error */
+
+
+"Failed to delete file" = "無法刪除檔案";
+
+/* error for deleting a file */
+"Failed to delete file: %@" = "無法刪除檔案：%@";
+
+/* Failed to download file. */
+"Failed to download file." = "無法下載檔案。";
+
+/* Failed to rename file. */
+"Failed to rename file." = "無法重新命名檔案。";
+
+/* FTP Upload error
+   SFTP Upload error */
+
+"Failed to set permissions for path %@" = "無法設定路徑 %@ 的權限";
+
+/* FileConnection copy data error */
+"Failed to upload data" = "無法載入資料";
+
+/* Failed to upload file. */
+"Failed to upload file." = "無法上傳檔案。";
+
+/* error transferring */
+"Failed to verify file transferred successfully" = "無法順利驗證傳輸的檔案";
+
+/* FTP file download error */
+"File %@ does not exist on server" = "伺服器上並沒有檔案 %@";
+
+/* FileConnection error */
+"File Already Exists" = "檔案已存在";
+
+/* FTP file in use */
+"File in Use" = "檔案正在使用中";
+
+/* directory kind */
+"Folder" = "檔案夾";
+
+/* FTP service timed out */
+"FTP service not available; Remote server has closed connection" = "FTP 服務無法取得；遠端伺服器已關閉連線";
+
+/* FTP no service */
+"FTP Service Unavailable" = "無法取得 FTP 服務";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* transfer controller */
+"Hide Files" = "隱藏檔案";
+
+/* Couldn't open the port to the host
+   Host Unavailable */
+
+"Host Unavailable" = "無法取得主機";
+
+/* MobileMe Create Directory Error
+   WebDAV Create Directory Error */
+
+"Insufficient storage space available" = "可用的儲存空間不足";
+
+/* FTP Error */
+"Invalid Account name" = "帳號名稱無效";
+
+/* Stream Error before opening */
+"Is the service running on the server" = "是在此伺服器上執行的服務";
+
+/* filesize: kilobytes */
+"KB" = "KB";
+
+/* outline view column header name
+   outline view column context menu item */
+
+"Kind" = "種類";
+
+/* File doesn't exist */
+"Local file %@ doesn't exist" = "本機檔案 %@ 不存在";
+
+/* FTP download error */
+"Local File already exists" = "本機檔案已存在";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* outline view column header name
+   outline view column context menu item */
+
+"Name" = "名稱";
+
+/* tree controller action gear */
+"New Folder" = "新增檔案夾";
+
+/* config */
+"No configuration file specified" = "未指定設定檔";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "請求的連線類型沒有可用的連線";
+
+/* FTP Error */
+"No Storage Space Available" = "沒有可用的儲存空間";
+
+/* No such file */
+"No such file" = "無此檔案";
+
+/* FTP Error */
+"Not Logged In" = "尚未登入";
+
+/* OK */
+"OK" = "好的";
+
+/* WebDAV Uploading Error
+   MobileMe File Uploading Error */
+
+"Parent Folder does not exist" = "主體檔案夾不存在";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* Permission Denied */
+"Permission Denied" = "權限遭拒絕";
+
+/* mimic Finder naming conventions */
+"Plain text document" = "純文字文件";
+
+/* config
+   error */
+
+"Quit" = "結束";
+
+/* tree controller action gear */
+"Refresh" = "重新整理";
+
+/* file transcript */
+"Renaming %@ to %@" = "正在將 %1$@ 重新命名為 %2$@";
+
+/* abbreviation for seconds, e.g. 12 MB/s */
+"s" = "s";
+
+/* SFTP authenticaton error */
+"SFTP connections require some form of authentication." = "SFTP 連線需要進行某種形式的認證。";
+
+/* transfer controller */
+"Show Files" = "顯示檔案";
+
+/* context menu
+   tree controller action gear */
+
+"Show Hidden Files" = "顯示隱藏檔案";
+
+/* context menu
+   tree controller action gear */
+
+"Show Package Extensions" = "顯示套件擴充內容";
+
+/* outline view column header name
+   outline view column context menu item */
+
+"Size" = "大小";
+
+/* close window */
+"Stop Upload" = "停止上傳";
+
+/* close window */
+"Stop Upload?" = "停止上傳？";
+
+/* Error creating stream */
+"Stream Unavailable" = "資料流無法取得";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* MobileMe Create Directory Error
+   WebDAV Create Directory Error */
+
+"The body of the request is not supported" = "不支援此請求的內容";
+
+/* MobileMe Create Directory Error
+   WebDAV Create Directory Error */
+
+"The directory already exists" = "目錄已存在";
+
+/* MobileMe Create Directory Error
+   WebDAV Create Directory Error */
+
+"The server does not allow the creation of directories at the current location" = "此伺服器不允許在目前的位置製作目錄";
+
+/* error transferring */
+"The transferred file has a size of 0." = "傳輸的檔案大小為 0。";
+
+/* MobileMe Directory Contents Error */
+"There is no MobileMe access to the directory" = "此目錄無法使用 MobileMe 存取";
+
+/* No WebDAV access to the specified path */
+"There is no WebDAV access to the directory" = "此目錄無法使用 WebDAV 存取";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "此 droplet 遺失原始的製作應用程式。您需要重新安裝其原始的應用程式。";
+
+/* time out */
+"Timed Out waiting for remote host." = "等待遠端主機逾時。";
+
+/* Transfer Controller */
+"Too many files had transfer problems" = "太多檔案發生傳輸問題";
+
+/* FileConnection failed to copy file */
+"Unable to store data in file" = "無法儲存檔案資料";
+
+/* WebDAV Error */
+"Unknown Error Occurred" = "發生未知的錯誤";
+
+/* status message */
+"Uploading" = "上傳";
+
+/* status */
+"Uploading %@" = "正在上傳 %@";
+
+/* file transcript */
+"Writing data to %@" = "正在寫入資料至 %@";
+
+/* Bonjour Error */
+"You can not add a child collection to the Bonjour category." = "您無法將子頁面集加到 Bonjour 類別中。";
+
+/* Bonjour Error */
+"You can not add a new server to the Bonjour category." = "您無法將新伺服器加到 Bonjour 類別中。";
+
+/* FTP file upload error */
+"You do not have access to write file %@" = "您沒有存取權限可寫入檔案 %@";
+
+/* FTP Error */
+"You need an Account to Upload Files" = "您需要“上傳檔案”的帳號";

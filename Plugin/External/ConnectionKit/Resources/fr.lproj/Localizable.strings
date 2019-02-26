@@ -1,0 +1,88 @@
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\nQue désirez-vous faire ?";
+
+/* ConnectionOpenPanel */
+"An unknown error occurred." = "Une erreur inconnue s'est produite.";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "Êtes-vous sûr de vouloir arrêter le chargement ?";
+
+/* authorise */
+"Authorize" = "Autoriser";
+
+/* authorise */
+"Authorize Connection?" = "Autoriser la connexion ?";
+
+/* config */
+"Bad Configuration" = "Mauvaise configuration";
+
+/* error */
+"Bad Droplet" = "Mauvaise 'droplet'";
+
+/* filesize: bytes */
+"bytes" = "octets";
+
+/* authorise */
+"Cancel" = "Annuler";
+
+/* connected message */
+"Connected to %@" = "Connecté à %@";
+
+/* connection string */
+"Connecting to %@" = "Se connecte à %@";
+
+/* close window */
+"Continue Upload" = "Continuer le chargement";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "N'a pu trouver le fichier de configuration indiqué\n %@";
+
+/* status */
+"Disconnected" = "Déconnecté";
+
+/* filesize: exabytes */
+"EB" = "Eo";
+
+/* filesize: gigabytes */
+"GB" = "Go";
+
+/* filesize: kilobytes */
+"KB" = "ko";
+
+/* FTP download error */
+"Local File already exists" = "Le fichier local existe déjà";
+
+/* filesize: megabytes */
+"MB" = "Mo";
+
+/* config */
+"No configuration file specified" = "Aucun fichier de configuration indiqué";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "Aucune connexion disponible pour le type de connexion demandé";
+
+/* filesize: petabytes */
+"PB" = "Po";
+
+/* ConnectionOpenPanel */
+"Please check your settings." = "Veuillez vérifiez vos réglages.";
+
+/* config
+   error */
+
+"Quit" = "Quitter";
+
+/* close window */
+"Stop Upload" = "Arrêter le chargement";
+
+/* close window */
+"Stop Upload?" = "Arrêter le chargement ?";
+
+/* filesize: terabytes */
+"TB" = "To";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "Il manque à cette droplet l'application originale qui l'a créée. Vous devrez réinstaller l'application originale.";
+
+/* status */
+"Uploading %@" = "Chargement de %@";

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A5CC9F9B-AB0E-4D46-AEC8-85180AC1FA8F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DAVKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4DBE8521-CFC4-42BD-BF9F-A2B70FB93257</key>
+		<string>ssh://github.com/karelia/MockServer.git</string>
+		<key>A83B07BE-C454-4AD2-884C-BC9377EDC056</key>
+		<string>https://github.com/boredzo/iso-8601-date-formatter.git</string>
+		<key>B0888B10-C721-48BD-A4B1-60F9E090EEDC</key>
+		<string>ssh://github.com/karelia/DAVKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DAVKit.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4DBE8521-CFC4-42BD-BF9F-A2B70FB93257</key>
+		<string>../Tests/MockServer</string>
+		<key>A83B07BE-C454-4AD2-884C-BC9377EDC056</key>
+		<string>../Sources/iso-8601-date-formatter</string>
+		<key>B0888B10-C721-48BD-A4B1-60F9E090EEDC</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/karelia/DAVKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B0888B10-C721-48BD-A4B1-60F9E090EEDC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B0888B10-C721-48BD-A4B1-60F9E090EEDC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DAVKit</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A83B07BE-C454-4AD2-884C-BC9377EDC056</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iso-8601-date-formatter</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4DBE8521-CFC4-42BD-BF9F-A2B70FB93257</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MockServer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

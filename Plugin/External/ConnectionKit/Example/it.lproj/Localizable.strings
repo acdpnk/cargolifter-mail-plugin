@@ -1,0 +1,441 @@
+/* ssh host key changed */
+"%@'s fingerprint does not match the one on record. If the server has changed its key, then this is to be expected. If not then you should check with the system administrator before proceeding.\nThe new fingerprint is %@.\nDo you wish to connect to the server?" = "La fingerprint di %1$@ non corrisponde a quella in archivio. Se il server ha cambiato la sua chiave questo è un comportamento normale. Diversamente, dovresti fare un controllo con l'amministratore del sistema prima di continuare.\n La nuova fingerprint è %2$@.\nVuoi collegarti al server?";
+
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\nChe cosa ti piacerebbe fare?";
+
+/* ConnectionOpenPanel */
+"A Connection Error Occurred" = "Si è verificato un errore di connessione";
+
+/* FTP Abort */
+"Action Aborted. Local Error" = "Azione interrotta. Errore locale";
+
+/* FTP no data stream types available */
+"All data connection modes have been exhausted. Check with the server administrator." = "Tutte le possibili modalità di connessione sono state provate. Fai un controllo con l'amministratore del server.";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"An intermediate directory does not exist and needs to be created before the current directory" = "Non esiste una cartella intermedia e deve essere creata prima della cartella attuale.";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"An unknown error occurred" = "Si è verificato un errore sconosciuto";
+
+/* multiple connection joiner */
+"and" = "e";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "Sei sicuro di voler interrompere il caricamento?";
+
+/* failed pk authentication for ssh */
+"Authentication by Public Key Failed" = "L'autenticazione con Chiave Pubblica è fallita";
+
+/* failed authentication for ssh */
+"Authentication Failed. Do you have permission to access this server via SFTP?" = "Autenticazione fallita. Sei sicuro di avere i permessi per accedere al server via SFTP?";
+
+/* authorise */
+"Authorize" = "Autorizza";
+
+/* authorise */
+"Authorize Connection?" = "Autorizzi la connessione?";
+
+/* connection type */
+"auto" = "auto";
+
+/* config */
+"Bad Configuration" = "Configurazione errata";
+
+/* error */
+"Bad Droplet" = "Droplet errato";
+
+/* sftp last error */
+"Bad Message" = "Messaggio errato";
+
+/* Transfer Controller */
+"Bad Password." = "Password errata.";
+
+/* filesize: bytes */
+"bytes" = "bytes";
+
+/* authorise */
+"Cancel" = "Annulla";
+
+/* FTP upload error */
+"Cannot Upload File. Storage quota on server exceeded" = "Non posso caricare il file. Lo spazio assegnato sul server è esaurito";
+
+/* transfer controller
+   connected message */
+
+"Connected to %@" = "Connesso a %@";
+
+/* file transcript */
+"Connected to File System\n" = "Connesso al File System\n";
+
+/* connection string */
+"Connecting to %@" = "Connessione a %@";
+
+/* file transcript */
+"Connecting…\n" = "Connessione…\n";
+
+/* sftp last error */
+"Connection Lost" = "Connessione perduta";
+
+/* close window */
+"Continue Upload" = "Continua caricamento";
+
+/* file transcript */
+"Copying %@ to %@\n" = "Sto copiando %1$@ di %2$@\n";
+
+/* FileConnection set permissions error */
+"Could not change file permissions" = "Non posso cambiare i permessi dei files";
+
+/* FileConnection create directory error */
+"Could not create directory" = "Non posso creare la cartella";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "Impossibile trovare il file di configurazione specificato\n %@";
+
+/* file transcript */
+"Create Directory %@ (%lo)\n" = "Crea cartella %1$@ (%2$lo)\n";
+
+/* FTP Create directory error */
+"Create directory operation failed" = "Operazione di creazione cartella fallita";
+
+/* Failed to open a data stream connection */
+"Data Stream Timed Out" = "Tempo scaduto per il flusso di dati";
+
+/* file transcript */
+"Deleting File %@\n" = "Cancellazione file %@\n";
+
+/* sftp last error */
+"Directory not empty" = "Cartella non vuota";
+
+/* status */
+"Disconnected" = "Disconnesso";
+
+/* transfer controller */
+"Disconnected from %@" = "Disconnesso da %@";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* sftp last error */
+"End of File" = "Fine del file";
+
+/* sftp last error */
+"Error INVAL" = "Errore INVAL";
+
+/* Directory Parsing Error */
+"Error parsing directory listing" = "Errore nell'analizzare l'elenco della cartella";
+
+/* FTP no data streams available */
+"Exhausted all connection types to server. Please contact server administrator" = "Tutte le possibili modalità di connessione sono state provate. Contatta l'amministratore del server.";
+
+/* Bad ftp command */
+"Failed to change to directory" = "Impossibile cambiare la cartella";
+
+/* sftp failure to create dir */
+"Failed to create directory" = "Impossibile creare la cartella";
+
+/* couldn't delete the file
+   MobileMe Directory Deletion Error
+   WebDAV Directory Deletion Error */
+
+
+"Failed to delete directory" = "Impossibile cancellare la cartella";
+
+/* error for deleting a directory */
+"Failed to delete directory: %@" = "Impossibile cancellare la cartella: %@";
+
+/* couldn't delete the file
+   MobileMe file deletion error
+   WebDAV File Deletion Error */
+
+
+"Failed to delete file" = "Impossibile cancellare il file";
+
+/* error for deleting a file */
+"Failed to delete file: %@" = "Impossibile cancellare il file: %@";
+
+/* failed to find the id_dsa.pub */
+"Failed to find public key in %@. If you have a custom named key, please set the User Default key SSHPublicKey." = "Impossibile trovare una Chiave Pubblica in %@. Se hai una chiave nominale personale, imposta la chiave utente di default SSHPublicKey.";
+
+/* failed authentication for ssh */
+"Failed to initialize SFTP Subsystem. Do you have permission to access this server via SFTP?" = "Impossibile inizializzare il sottosistema SFTP. Hai i permessi necessari per accedere al server via SFTP?";
+
+/* No MobileMe account or password */
+"Failed to retrieve MobileMe account details" = "Impossibile recuperare le informazioni dell'utenza MobileMe";
+
+/* FileConnection copy data error */
+"Failed to upload data" = "Impossibile caricare dati";
+
+/* error transferring */
+"Failed to verify file transferred successfully" = "Impossibile verificare l'esito positivo del trasferimento";
+
+/* sftp error */
+"Failed to write all data" = "Impossibile verificare tutti i dati";
+
+/* sftp last error */
+"Failure" = "Fallito";
+
+/* FTP file download error */
+"File %@ does not exist on server" = "Il file %@ non esiste sul server";
+
+/* FTP error */
+"File / Directory does not exist" = "Il file / Cartella non esiste";
+
+/* FileConnection error */
+"File Already Exists" = "Il file esiste già	";
+
+/* sftp last error */
+"File already exists" = "Il file esiste già";
+
+/* FTP file in use */
+"File in Use" = "Il file è in uso";
+
+/* FTP Upload error */
+"Filename not Allowed" = "Il nome file non è consentito";
+
+/* FTP service timed out */
+"FTP service not available; Remote server has closed connection" = "Il servizio FTP non è disponibile; il server remoto ha chiuso la connessione";
+
+/* FTP no service */
+"FTP Service Unavailable" = "Il servizio FTP non è disponibile";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* transfer controller */
+"Hide Files" = "Nascondi files";
+
+/* Couldn't open the port to the host */
+"Host Unavailable" = "L'Host non è disponibile";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"Insufficient storage space available" = "Lo spazio su disco non è sufficiente";
+
+/* FTP Error */
+"Invalid Account name" = "Il nome account non è valido";
+
+/* sftp last error */
+"Invalid filename" = "Il nome file non è valido";
+
+/* sftp last error */
+"Invalid Handle" = "L'handle non è valido";
+
+/* Stream Error before opening */
+"Is the service running on the server" = "Il servizio è attivo sul server";
+
+/* filesize: kilobytes */
+"Kilobytes" = "Kilobytes";
+
+/* sftp last error */
+"Link Loop" = "Collegameno ricorsivo";
+
+/* FTP download error */
+"Local File already exists" = "Il file locale esiste già";
+
+/* sftp last error */
+"Lock Conflict" = "Conflitto di Lock";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* sftp last error */
+"Method not Supported" = "Metodo non supportato";
+
+/* new cat name */
+"New Category" = "Nuova categoria";
+
+/* config */
+"No configuration file specified" = "Non è stato specificato nessun file di configurazione";
+
+/* sftp last error */
+"No Connection" = "Nessuna connessione";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "Nessuna connessione è disponibile per il tipo di connessione richiesto";
+
+/* failed to find a connection class */
+"No connection available for requested port" = "Nessuna connessione è disponibile per la porta richiesta";
+
+/* failed to find a connection class */
+"No connection available for requested protocol" = "Nessuna connessione è disponibile per il protocollo richiesto";
+
+/* sftp last error */
+"No Media" = "Nessun media";
+
+/* sftp last error */
+"No space left on remote machine" = "Non c'è altro spazio disponibile sulla macchina remota";
+
+/* FTP Error */
+"No Storage Space Available" = "Non c'è più spazio disponibile";
+
+/* sftp last error */
+"No such file" = "Nessun file";
+
+/* sftp last error */
+"No such path" = "Nessun percorso";
+
+/* sftp last error */
+"Not a directory" = "Non è una cartella";
+
+/* FTP Error */
+"Not Logged In" = "Noi sei connesso";
+
+/* sftp last error
+   OK */
+
+"OK" = "OK";
+
+/* sftp last error */
+"Operation Unsupported" = "L'operazione non è supportata";
+
+/* WebDAV Uploading Error
+   MobileMe File Uploading Error */
+
+"Parent Folder does not exist" = "La cartella superiore non esiste";
+
+/* No comment provided by engineer. */
+"Password was not accepted." = "La password non è stata accettata.";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* sftp last error */
+"Permission Denied" = "Permesso negato";
+
+/* config
+   error */
+
+"Quit" = "Esci";
+
+/* sftp last error */
+"Quota exceeded" = "Quota superata";
+
+/* file transcript */
+"Renaming %@ to %@\n" = "Restanti %1$@ di %2$@\n";
+
+/* FTP Error */
+"Request Aborted. Page Type Unknown" = "La richiesta è stata interrotta. Tipo di pagina sconosciuto";
+
+/* sftp last error */
+"Request Denied" = "Richiesta negata";
+
+/* abbreviation for seconds, e.g. 12 MB/s */
+"s" = "sec";
+
+/* category name */
+"Saved Hosts" = "Host registrati";
+
+/* No comment provided by engineer. */
+"Secure Shell Connection Error" = "Errore di connessione Secure Shell";
+
+/* transfer controller */
+"Show Files" = "Mostra files";
+
+/* close window */
+"Stop Upload" = "Ferma caricamento";
+
+/* close window */
+"Stop Upload?" = "Interrompere caricamento?";
+
+/* Error creating stream */
+"Stream Unavailable" = "Stream non disponibile";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"The body of the request is not supported" = "Il corpo della richiesta non è supportato";
+
+/* sftp bad directory */
+"The directory (%@) does not exist" = "La cartella (%@) non esiste";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"The directory already exists" = "La cartella esiste già";
+
+/* WebDAV Create Directory Error
+   MobileMe Create Directory Error */
+
+"The server does not allow the creation of directories at the current location" = "Il server non permette la creazione di directory nella posizione attuale";
+
+/* No comment provided by engineer. */
+"The SSH manager returned the following error message:\n\n%@" = "Il manager SSH ha riportato il seguente messaggio di errore:\n\n%@";
+
+/* error transferring */
+"The transferred file has a size of 0." = "Il file trasferito ha dimensione uguale a 0.";
+
+/* MobileMe Directory Contents Error */
+"There is no MobileMe access to the directory" = "Non c'è un accesso MobileMe alla cartella";
+
+/* No WebDAV access to the specified path */
+"There is no WebDAV access to the directory" = "Non c'è un accesso WebDAV alla directory";
+
+/* sftp error */
+"There was an error with the SSH subsystem: " = "Si è verificato un errore con il sottosistema SSH:";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "Il droplet ha perduto la connessione con l'applicazione che l'ha creato. Dovrai reinstallare l'applicazione originale.";
+
+/* ssh authorise remote host fingerprint */
+"This is the first time connecting to %@. It has a fingerprint of \n%@. Do you wish to connect?" = "Questa è la prima volta che ti colleghi a  %1$@, che ha una fingerprint di \n%2$@. Vuoi connetterti?";
+
+/* time out */
+"Timed Out waiting for remote host." = "E' scaduto il tempo di attesa per l'host remoto.";
+
+/* Transfer Controller */
+"Too many files had transfer problems" = "Problemi dovuti allo scaricamento di troppi files";
+
+/* FileConnection failed to copy file */
+"Unable to store data in file" = "Non posso salvare i dati nel file";
+
+/* WebDAV Error */
+"Unknown Error Occurred" = "Si è verificato un errore sconosciuto";
+
+/* sftp last error */
+"Unknown Principle" = "Principio sconosciuto";
+
+/* status message */
+"Uploading" = "Sto caricando";
+
+/* status */
+"Uploading %@" = "Sto caricando %@";
+
+/* No username or password */
+"Username and Password are required for FTP connections" = "Nome Utente e Password sono necessarie per le connessioni FTP";
+
+/* No username or password */
+"Username and Password are required for S3 connections" = "Nome Utente e Password sono necessarie per le connessioni S3";
+
+/* No username or password */
+"Username and Password are required for WebDAV connections" = "Nome Utente e Password sono necessarie per le connessioni WebDAV";
+
+/* No username or password */
+"Username is required for SFTP connections" = "Il Nome Utente è necessario per le connessioni SFTP";
+
+/* sftp last error */
+"Write Protected" = "Protetto da scrittura";
+
+/* file transcript */
+"Writing data to %@\n" = "Sto scrivendo i dati in %@\n";
+
+/* Bonjour Error */
+"You can not add a child category to the Bonjour category." = "Non puoi aggiungere una categoria secondaria alla categoria di Bonjour.";
+
+/* Bonjour Error */
+"You can not add a new host to the Bonjour category." = "Non puoi aggiungere un nuovo host alla categoria di Bonjour.";
+
+/* FTP file upload error */
+"You do not have access to write file %@" = "Non hai l'accesso per scrivere il file %@";
+
+/* FTP Error */
+"You need an Account to Upload Files" = "Hai bisogno di un account per caricare files";

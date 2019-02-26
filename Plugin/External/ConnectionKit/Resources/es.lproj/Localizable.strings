@@ -1,0 +1,88 @@
+/* authorise */
+"%@\nWhat would you like to do?" = "%@\n¿Qué desea hacer?";
+
+/* ConnectionOpenPanel */
+"An unknown error occurred." = "Se ha producido un error desconocido.";
+
+/* close window */
+"Are you sure you want to stop the upload?" = "¿Está seguro que desea detener la carga del archivo en el servidor?";
+
+/* authorise */
+"Authorize" = "Autorizar";
+
+/* authorise */
+"Authorize Connection?" = "¿Autorizar conexión?";
+
+/* config */
+"Bad Configuration" = "Error de configuración";
+
+/* error */
+"Bad Droplet" = "Gotero dañado";
+
+/* filesize: bytes */
+"bytes" = "bytes";
+
+/* authorise */
+"Cancel" = "Cancelar";
+
+/* connected message */
+"Connected to %@" = "Conectado a %@";
+
+/* connection string */
+"Connecting to %@" = "Conectado a %@";
+
+/* close window */
+"Continue Upload" = "Continuar la carga del archivo.";
+
+/* config */
+"Couldn't find configuration file specified\n %@" = "No se pudo encontrar el archivo de configuración especificado\n %@";
+
+/* status */
+"Disconnected" = "Desconectado";
+
+/* filesize: exabytes */
+"EB" = "EB";
+
+/* filesize: gigabytes */
+"GB" = "GB";
+
+/* filesize: kilobytes */
+"KB" = "KB";
+
+/* FTP download error */
+"Local File already exists" = "El archivo local ya existe";
+
+/* filesize: megabytes */
+"MB" = "MB";
+
+/* config */
+"No configuration file specified" = "No se especificó un archivo de configuración";
+
+/* failed to find a connection class */
+"No connection available for requested connection type" = "No hay una conexión disponible para el tipo requerido";
+
+/* filesize: petabytes */
+"PB" = "PB";
+
+/* ConnectionOpenPanel */
+"Please check your settings." = "Por favor, revise su configuración.";
+
+/* config
+   error */
+
+"Quit" = "Salir";
+
+/* close window */
+"Stop Upload" = "Detener la carga del archivo";
+
+/* close window */
+"Stop Upload?" = "¿Detener la carga?";
+
+/* filesize: terabytes */
+"TB" = "TB";
+
+/* error */
+"This droplet is missing the original application that created it. You will need to reinstall the original application." = "Este gotero no encuentra la aplicación original con el que fue creado; necesitará reinstalarla.";
+
+/* status */
+"Uploading %@" = "Cargando %@";

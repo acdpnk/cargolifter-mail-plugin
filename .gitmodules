@@ -1,0 +1,3 @@
+[submodule "Plugin/External/MailMessageUUIDs"]
+	path = Plugin/External/MailMessageUUIDs
+	url = https://github.com/lksoft/MailMessageUUIDs

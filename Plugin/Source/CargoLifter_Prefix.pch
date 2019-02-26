@@ -1,0 +1,45 @@
+//
+//  CargoLifter_Prefix.pch
+//  CargoLifter
+//
+//  Created by Fabian Jäger on 15/09/15.
+//  Copyright (c) 2015 Mailbutler. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#define PLUGIN_BUNDLE       [NSBundle bundleForClass:[CLMailBundle class]]
+#define PLUGIN_DELEGATE     [CLPluginDelegate sharedDelegate]
+#define PLUGIN_DEFAULTS     [CLPluginDelegate pluginDefaults]
+
+#define MAIL_DEFAULTS       [[NSUserDefaults alloc] initWithSuiteName:nil]
+
+#import <Cocoa/Cocoa.h>
+
+#import "Compatibility.h"
+
+#import "Common.h"
+#import "CLMailBundle.h"
+#import "CLPluginDelegate.h"
+
+#define CLCargoLifterErrorDomain            @"com.mailbutler.cargolifter"
+
+// NSUserDefault keys
+#define CLSettingsOnce                      @"CLSettingsOnce"
+#define CLAutomaticallyUploadAttachments    @"CLAutomaticallyUploadAttachments"
+#define CLAttachmentLinkStyle               @"CLAttachmentLinkStyle"
+#define CLAttachmentLinkListPosition        @"CLAttachmentLinkListPosition"
+#define CLMinAttachmentSize                 @"CLMinAttachmentSize"
+
+typedef enum : NSUInteger {
+    CLProcessContinue,
+    CLProcessStop,
+} CLSendProcessAction;
+
+#ifdef PLUGIN_BUNDLE
+#undef NSLocalizedString
+#define NSLocalizedString(key,comment)   NSLocalizedStringFromTableInBundle(key, nil, PLUGIN_BUNDLE, comment)
+#define NSLocalizedVariableString(key,comment)   NSLocalizedStringFromTableInBundle(key, nil, PLUGIN_BUNDLE, comment)
+#endif
+
+#endif

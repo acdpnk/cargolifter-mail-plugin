@@ -1,0 +1,9 @@
+[submodule "Sources/iso-8601-date-formatter"]
+	path = Sources/iso-8601-date-formatter
+	url = https://github.com/karelia/iso-8601-date-formatter.git
+[submodule "Tests/OCUnit2JUnit"]
+	path = Tests/OCUnit2JUnit
+	url = https://github.com/ciryon/OCUnit2JUnit
+[submodule "Tests/MockServer"]
+	path = Tests/MockServer
+	url = https://github.com/karelia/MockServer.git
