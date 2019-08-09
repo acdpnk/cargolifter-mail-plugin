@@ -28,16 +28,13 @@
 #import "AFOAuthCredential.h"
 #import "AFHTTPRequestSerializer+OAuth2.h"
 
-#define CLDropboxAppSecret      @"***REMOVED***"
-#define CLDropboxAppKey         @"***REMOVED***"
-
 #define CLDropboxRedirectURL    @"https://cargolifter.mailbutler.io/dropbox"
 
 @implementation CLDropboxUploader
 
-- (NSString*) clientID { return CLDropboxAppKey; }
-- (NSString*) clientSecret { return CLDropboxAppSecret; }
-- (NSURL*) oauthStartURL { return [NSURL URLWithString:[NSString stringWithFormat:@"https://www.dropbox.com/oauth2/authorize?response_type=code&client_id=%@&redirect_uri=%@&state=%@", CLDropboxAppKey, [CLDropboxRedirectURL urlEncodedQueryString], [NSUUID UUID]]]; }
+- (NSString*) clientID { return DROPBOX_APP_KEY; }
+- (NSString*) clientSecret { return DROPBOX_APP_SECRET; }
+- (NSURL*) oauthStartURL { return [NSURL URLWithString:[NSString stringWithFormat:@"https://www.dropbox.com/oauth2/authorize?response_type=code&client_id=%@&redirect_uri=%@&state=%@", self.clientID, [CLDropboxRedirectURL urlEncodedQueryString], [NSUUID UUID]]]; }
 - (NSURL*) authBaseURL { return [NSURL URLWithString:@"https://api.dropbox.com"]; }
 - (NSURL*) redirectURL { return [NSURL URLWithString:CLDropboxRedirectURL]; }
 - (NSString*) getTokenPath { return @"/oauth2/token"; }
@@ -140,7 +137,7 @@
 }
 
 + (void) load {
-    [DBClientsManager setupWithAppKeyDesktop:CLDropboxAppKey];
+    [DBClientsManager setupWithAppKeyDesktop:DROPBOX_APP_KEY];
 }
 
 @end

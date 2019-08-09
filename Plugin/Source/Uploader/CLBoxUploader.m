@@ -28,8 +28,6 @@
 
 #import "AFOAuth2Manager.h"
 
-#define CLBoxClientID           @"***REMOVED***"
-#define CLBoxClientSecret       @"***REMOVED***"
 #define CLBoxRedirectURL        @"https://cargolifter.mailbutler.io/box"
 
 #define CLBoxFolderId           @"CLBoxFolderId"
@@ -39,9 +37,9 @@
 
 @implementation CLBoxUploader
 
-- (NSString*) clientID { return CLBoxClientID; }
-- (NSString*) clientSecret { return CLBoxClientSecret; }
-- (NSURL*) oauthStartURL { return [NSURL URLWithString:[NSString stringWithFormat:@"https://account.box.com/api/oauth2/authorize?response_type=code&client_id=%@&state=authenticated", CLBoxClientID]]; }
+- (NSString*) clientID { return BOX_CLIENT_ID; }
+- (NSString*) clientSecret { return BOX_CLIENT_SECRET; }
+- (NSURL*) oauthStartURL { return [NSURL URLWithString:[NSString stringWithFormat:@"https://account.box.com/api/oauth2/authorize?response_type=code&client_id=%@&state=authenticated", self.clientID]]; }
 - (NSURL*) authBaseURL { return [NSURL URLWithString:CLBoxAPIAuthBaseURL]; }
 - (NSURL*) redirectURL { return [NSURL URLWithString:CLBoxRedirectURL]; }
 - (NSString*) getTokenPath { return @"/oauth2/token"; }

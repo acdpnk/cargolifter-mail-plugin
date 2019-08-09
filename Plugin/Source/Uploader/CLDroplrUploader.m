@@ -27,10 +27,6 @@
 #import <AFNetworking/AFNetworking.h>
 #import <sys/time.h>
 
-#define CLDroplrPublicKey       @"***REMOVED***"
-#define CLDroplrPrivateKey      @"***REMOVED***"
-#define CLDroplrCallback        @"***REMOVED***"
-
 long long DKCurrentTimeMillis()
 {
     struct timeval t;
@@ -69,8 +65,8 @@ long long DKCurrentTimeMillis()
     NSString* userAgent = [NSString stringWithFormat:@"%@/%@", bundleName, version];
     
     // create signature
-    NSString* accessKey = [NSString stringByEncodingBase64:[NSString stringWithFormat:@"%@:%@", CLDroplrPublicKey, self.service.login] withCharacterEncoding:NSUTF8StringEncoding];
-    NSString* accessSecret = [NSString stringWithFormat:@"%@:%@", CLDroplrPrivateKey, self.service.password.sha1_digest];
+    NSString* accessKey = [NSString stringByEncodingBase64:[NSString stringWithFormat:@"%@:%@", DROPLR_PUBLIC_KEY, self.service.login] withCharacterEncoding:NSUTF8StringEncoding];
+    NSString* accessSecret = [NSString stringWithFormat:@"%@:%@", DROPLR_PRIVATE_KEY, self.service.password.sha1_digest];
     NSString* stringToSign = [NSString stringWithFormat:@"%@ %@ HTTP/1.1\n%@\n%lld", @"POST", uploadURI, mimeType, timeSince1970];
     NSString* signature = [[NSData HMACSHA1DigestOfString:stringToSign withKey:accessSecret] base64EncodedString];
     
@@ -148,8 +144,8 @@ long long DKCurrentTimeMillis()
     long long timeSince1970 = DKCurrentTimeMillis();
     
     // create signature
-    NSString* accessKey = [NSString stringByEncodingBase64:[NSString stringWithFormat:@"%@:%@", CLDroplrPublicKey, self.service.login] withCharacterEncoding:NSUTF8StringEncoding];
-    NSString* accessSecret = [NSString stringWithFormat:@"%@:%@", CLDroplrPrivateKey, self.service.password.sha1_digest];
+    NSString* accessKey = [NSString stringByEncodingBase64:[NSString stringWithFormat:@"%@:%@", DROPLR_PUBLIC_KEY, self.service.login] withCharacterEncoding:NSUTF8StringEncoding];
+    NSString* accessSecret = [NSString stringWithFormat:@"%@:%@", DROPLR_PRIVATE_KEY, self.service.password.sha1_digest];
     NSString* stringToSign = [NSString stringWithFormat:@"%@ %@ HTTP/1.1\n\n%lld", @"GET", accountURI, timeSince1970];
     NSString* signature = [[NSData HMACSHA1DigestOfString:stringToSign withKey:accessSecret] base64EncodedString];
     

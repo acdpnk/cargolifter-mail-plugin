@@ -26,8 +26,6 @@
 
 #import "NSString+CLAdditions.h"
 
-#define CLGDriveClientID        @"***REMOVED***"
-#define CLGDriveClientSecret    @"***REMOVED***"
 #define CLGDriveFolderId        @"CLGDriveFolderId"
 
 #define CLDriveBaseURL          @"https://www.googleapis.com"
@@ -35,9 +33,9 @@
 
 @implementation CLGoogleDriveUploader
 
-- (NSString*) clientID { return CLGDriveClientID; }
-- (NSString*) clientSecret { return CLGDriveClientSecret; }
-- (NSURL*) oauthStartURL { return [NSURL URLWithString:[NSString stringWithFormat:@"https://accounts.google.com/o/oauth2/v2/auth?client_id=%@&response_type=code&access_type=offline&redirect_uri=%@&scope=%@&prompt=consent", CLGDriveClientID, [CLDriveRedirectURL urlEncodedQueryString], [@"https://www.googleapis.com/auth/drive.file" urlEncodedQueryString]]]; }
+- (NSString*) clientID { return GDRIVE_CLIENT_ID; }
+- (NSString*) clientSecret { return GDRIVE_CLIENT_SECRET; }
+- (NSURL*) oauthStartURL { return [NSURL URLWithString:[NSString stringWithFormat:@"https://accounts.google.com/o/oauth2/v2/auth?client_id=%@&response_type=code&access_type=offline&redirect_uri=%@&scope=%@&prompt=consent", self.clientID, [CLDriveRedirectURL urlEncodedQueryString], [@"https://www.googleapis.com/auth/drive.file" urlEncodedQueryString]]]; }
 - (NSURL*) authBaseURL { return [NSURL URLWithString:@"https://www.googleapis.com"]; }
 - (NSURL*) redirectURL { return [NSURL URLWithString:CLDriveRedirectURL]; }
 - (NSString*) getTokenPath { return @"/oauth2/v4/token"; }

@@ -26,8 +26,6 @@
 
 #import <AFNetworking/AFNetworking.h>
 
-#define CLMediafireAPIKey       @"***REMOVED***"
-#define CLMediafireAppID        @"***REMOVED***"
 #define CLMediaFireFolderKey    @"CLMediafireFolderKey"
 
 @interface CLMediaFireUploader (PRIVATE)
@@ -39,7 +37,7 @@
 
 - (NSString*)_hashStringForEmail:(NSString *)email password:(NSString *)password
 {
-    NSString* toBeHashed = [NSString stringWithFormat:@"%@%@%@%@", email, password, CLMediafireAppID, CLMediafireAPIKey];
+    NSString* toBeHashed = [NSString stringWithFormat:@"%@%@%@%@", email, password, MEDIAFIRE_APP_ID, MEDIAFIRE_API_KEY];
     
     return [toBeHashed sha1_digest];
 }
@@ -51,7 +49,7 @@
     
     // first, get session token
     NSString* hashString = [self _hashStringForEmail:aLogin password:aPassword];
-    NSDictionary* params = @{@"email":aLogin, @"password":aPassword, @"signature":hashString, @"application_id":CLMediafireAppID, @"response_format":@"json"};
+    NSDictionary* params = @{@"email":aLogin, @"password":aPassword, @"signature":hashString, @"application_id":MEDIAFIRE_APP_ID, @"response_format":@"json"};
     
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:@"https://www.mediafire.com"]];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];

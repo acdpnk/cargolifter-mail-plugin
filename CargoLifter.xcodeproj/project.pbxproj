@@ -172,6 +172,7 @@
 		1F588E5F1EC5E38D00696D3E /* ObjectiveDropboxOfficial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectiveDropboxOfficial.framework; sourceTree = "<group>"; };
 		1F6F59CB1BADBA7A00C53560 /* CLServicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLServicesManager.h; sourceTree = "<group>"; };
 		1F6F59CC1BADBA7A00C53560 /* CLServicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLServicesManager.m; sourceTree = "<group>"; };
+		1F7CCF9922FD54430071F609 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		1F7DAF8A1BD3968800C05761 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		1F7DAF8D1BD397A300C05761 /* NSData+CLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CLAdditions.h"; sourceTree = "<group>"; };
 		1F7DAF8E1BD397A300C05761 /* NSData+CLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CLAdditions.m"; sourceTree = "<group>"; };
@@ -455,6 +456,7 @@
 		1FEF9C7E1BA833A900372FA3 = {
 			isa = PBXGroup;
 			children = (
+				1F7CCF9922FD54430071F609 /* Config.xcconfig */,
 				1FEF9C911BA8341900372FA3 /* Plugin */,
 				1FEF9C881BA833A900372FA3 /* Products */,
 				1FD5CD491D92850200E02B86 /* Frameworks */,
@@ -610,7 +612,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CL;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Mailbutler;
 				TargetAttributes = {
 					1F09697B1EBB134D00637816 = {
@@ -626,7 +628,7 @@
 			};
 			buildConfigurationList = 1FEF9C821BA833A900372FA3 /* Build configuration list for PBXProject "CargoLifter" */;
 			compatibilityVersion = "Xcode 10.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -967,12 +969,12 @@
 				MAIL_OSX_SDK_MAJOR = 10;
 				MAIL_OSX_SDK_MINOR = 14;
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
 		1FEF9C8F1BA833A900372FA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7CCF9922FD54430071F609 /* Config.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1013,6 +1015,7 @@
 		};
 		1FEF9C901BA833A900372FA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7CCF9922FD54430071F609 /* Config.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (

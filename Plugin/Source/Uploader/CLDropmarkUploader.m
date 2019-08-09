@@ -24,7 +24,6 @@
 #import "NSString+CLAdditions.h"
 #import <AFNetworking/AFNetworking.h>
 
-#define CLDropmarkAPIKey        @"***REMOVED***"
 #define CLDropmarkUserID        @"CLDropmarkUserID"
 #define CLDropmarkToken         @"CLDropmarkToken"
 #define CLDropmarkCollectionID  @"CLDropmarkCollectionID"
@@ -57,7 +56,7 @@
     
     // make sure we are authorized correctly
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:baseURL];
-    [manager.requestSerializer setValue:CLDropmarkAPIKey forHTTPHeaderField:@"X-API-Key"];
+    [manager.requestSerializer setValue:DROPMARK_API_KEY forHTTPHeaderField:@"X-API-Key"];
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [manager.requestSerializer setAuthorizationHeaderFieldWithUsername:userID password:token];
     AFJSONResponseSerializer* jsonSerializer = [AFJSONResponseSerializer serializer];
@@ -142,7 +141,7 @@
     AFJSONResponseSerializer* jsonSerializer = [AFJSONResponseSerializer serializer];
     [jsonSerializer setRemovesKeysWithNullValues:YES];
     manager.responseSerializer = jsonSerializer;
-    [manager.requestSerializer setValue:CLDropmarkAPIKey forHTTPHeaderField:@"X-API-Key"];
+    [manager.requestSerializer setValue:DROPMARK_API_KEY forHTTPHeaderField:@"X-API-Key"];
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     
     self.service.linking = YES;

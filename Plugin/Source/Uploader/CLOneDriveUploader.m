@@ -29,16 +29,14 @@
 #define CLOneDriveAuthBaseURL        @"https://login.microsoftonline.com"
 #define CLOneDriveBaseURL            @"https://graph.microsoft.com"
 
-#define CLOneDrivePrivateKey         @"***REMOVED***"
-#define CLOneDriveApplicationID      @"***REMOVED***"
 #define CLOneDriveRedirectURL        @"https://cargolifter.mailbutler.io/onedrive"
 
 #define CLOneDrivePartSize          (327680*4)
 
 @implementation CLOneDriveUploader
 
-- (NSString*) clientID { return CLOneDriveApplicationID; }
-- (NSString*) clientSecret { return CLOneDrivePrivateKey; }
+- (NSString*) clientID { return ONEDRIVE_APP_ID; }
+- (NSString*) clientSecret { return ONEDRIVE_PRIVATE_KEY; }
 - (NSURL*) oauthStartURL { return [NSURL URLWithString:[NSString stringWithFormat:@"https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=%@&scope=%@&response_type=code&redirect_uri=%@", self.clientID, [@"offline_access files.readwrite" urlEncodedQueryString], [CLOneDriveRedirectURL urlEncodedQueryString]]]; }
 - (NSURL*) redirectURL { return [NSURL URLWithString:CLOneDriveRedirectURL]; }
 - (NSURL*) authBaseURL { return [NSURL URLWithString:CLOneDriveAuthBaseURL]; }
